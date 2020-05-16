@@ -139,7 +139,7 @@
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9JkK8oM0Eeq59Lg8Uv8JMQ"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9JkK84M0Eeq59Lg8Uv8JMQ" value="*"/>
           </ownedEnd>
-          <ownedEnd xmi:id="_9JkK9IM0Eeq59Lg8Uv8JMQ" name="computadora Receptoras" type="_x3H0QH58EeqtnPi8B86etA" association="_9JkK8IM0Eeq59Lg8Uv8JMQ">
+          <ownedEnd xmi:id="_9JkK9IM0Eeq59Lg8Uv8JMQ" name="computadora Receptoras" type="_bZJD4JetEeqEjcU498GQ3g" association="_9JkK8IM0Eeq59Lg8Uv8JMQ">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9JkK9YM0Eeq59Lg8Uv8JMQ"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9JkK9oM0Eeq59Lg8Uv8JMQ" value="*"/>
           </ownedEnd>
@@ -169,17 +169,17 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_IefMQH6JEeqtnPi8B86etA" name="NodosDespliegue">
         <packagedElement xmi:type="uml:Device" xmi:id="_QJvzUH5_EeqtnPi8B86etA" name="Computadora Directorio">
-          <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_UQfmQH5_EeqtnPi8B86etA" name="J.R.E. 1.8">
+          <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_UQfmQH5_EeqtnPi8B86etA" name="J.R.E. 8.0">
             <nestedClassifier xmi:type="uml:Artifact" xmi:id="_nQJ4wH6AEeqtnPi8B86etA" name="Server.jar"/>
           </nestedNode>
         </packagedElement>
         <packagedElement xmi:type="uml:Device" xmi:id="_iSD10H56EeqtnPi8B86etA" name="Computadora Emisora">
-          <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_CB2BUH57EeqtnPi8B86etA" name="J.R.E. 1.8">
+          <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_CB2BUH57EeqtnPi8B86etA" name="J.R.E. 8.0">
             <nestedClassifier xmi:type="uml:Artifact" xmi:id="_PM9-0H57EeqtnPi8B86etA" name="Emisor.jar"/>
           </nestedClassifier>
         </packagedElement>
         <packagedElement xmi:type="uml:Device" xmi:id="_x3H0QH58EeqtnPi8B86etA" name="Computadora Receptora">
-          <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_MtVowH59EeqtnPi8B86etA" name="J.R.E. 1.8">
+          <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_MtVowH59EeqtnPi8B86etA" name="J.R.E. 8.0">
             <nestedClassifier xmi:type="uml:Artifact" xmi:id="_PEBzUH59EeqtnPi8B86etA" name="Receptor.jar"/>
           </nestedNode>
         </packagedElement>
@@ -278,6 +278,35 @@
       <ownedAttribute xmi:id="_xd3IQIN1Eeq-QKSj3F1TGA" name="VistaYControlador" type="_E1LeEH6bEeqtnPi8B86etA"/>
       <lifeline xmi:id="_uHjTwYN1Eeq-QKSj3F1TGA" name="Emisor" represents="_uHjTwIN1Eeq-QKSj3F1TGA"/>
       <lifeline xmi:id="_xd3IQYN1Eeq-QKSj3F1TGA" name="VistaYControlador" represents="_xd3IQIN1Eeq-QKSj3F1TGA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_TsN0cJetEeqEjcU498GQ3g" name="LAN" memberEnd="_TsN0cZetEeqEjcU498GQ3g _TsObgpetEeqEjcU498GQ3g" navigableOwnedEnd="_TsN0cZetEeqEjcU498GQ3g _TsObgpetEeqEjcU498GQ3g">
+      <ownedEnd xmi:id="_TsN0cZetEeqEjcU498GQ3g" name="computadora Receptoras" type="_x3H0QH58EeqtnPi8B86etA" association="_TsN0cJetEeqEjcU498GQ3g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TsObgJetEeqEjcU498GQ3g"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TsObgZetEeqEjcU498GQ3g" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_TsObgpetEeqEjcU498GQ3g" name="computadora Mensajess" type="_bZJD4JetEeqEjcU498GQ3g" association="_TsN0cJetEeqEjcU498GQ3g">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_TsPCkJetEeqEjcU498GQ3g"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TsPCkZetEeqEjcU498GQ3g" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_bZJD4JetEeqEjcU498GQ3g" name="Computadora Mensajes">
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_fVN34JetEeqEjcU498GQ3g" name="J.R.E. 8.0">
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_C2A24JeuEeqEjcU498GQ3g" name="ServerMensajes.jar"/>
+      </nestedNode>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3LLgEJewEeqEjcU498GQ3g" name="Sistema" visibility="public"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4b5hEJewEeqEjcU498GQ3g" name="InternetManager" visibility="public"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_CJscEJexEeqEjcU498GQ3g" name="mensaje">
+      <packagedElement xmi:type="uml:Class" xmi:id="_EEwakJexEeqEjcU498GQ3g" name="Mensaje" visibility="public"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Fs-VkJexEeqEjcU498GQ3g" name="MensajeSimple" visibility="public">
+        <generalization xmi:id="_drbSwJexEeqEjcU498GQ3g" general="_EEwakJexEeqEjcU498GQ3g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Q42YIJexEeqEjcU498GQ3g" name="MensajeAlarma" visibility="public">
+        <generalization xmi:id="_dC-ysJexEeqEjcU498GQ3g" general="_EEwakJexEeqEjcU498GQ3g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_S9voEJexEeqEjcU498GQ3g" name="MensajeRecepcion" visibility="public">
+        <generalization xmi:id="_eEEcQJexEeqEjcU498GQ3g" general="_EEwakJexEeqEjcU498GQ3g"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
