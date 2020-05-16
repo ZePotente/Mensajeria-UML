@@ -762,6 +762,10 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_DHBFZYNTEeq59Lg8Uv8JMQ" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_DHBFZoNTEeq59Lg8Uv8JMQ"/>
             </children>
+            <children xmi:type="notation:Node" xmi:id="__aCUsJesEeqEjcU498GQ3g" type="3010" element="__ZzEIJesEeqEjcU498GQ3g">
+              <styles xmi:type="notation:FontStyle" xmi:id="__aCUsZesEeqEjcU498GQ3g" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="__aCUspesEeqEjcU498GQ3g"/>
+            </children>
             <styles xmi:type="notation:SortingStyle" xmi:id="_mDKrwn6BEeqtnPi8B86etA"/>
             <styles xmi:type="notation:FilteringStyle" xmi:id="_mDKrw36BEeqtnPi8B86etA"/>
           </children>
@@ -782,10 +786,6 @@
             <children xmi:type="notation:Node" xmi:id="_nqZ5436CEeqtnPi8B86etA" type="3010" element="_nqXdp36CEeqtnPi8B86etA">
               <styles xmi:type="notation:FontStyle" xmi:id="_nqZ55H6CEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_nqZ55X6CEeqtnPi8B86etA"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_Ek764IM2Eeq59Lg8Uv8JMQ" type="3010" element="_Ek10Q4M2Eeq59Lg8Uv8JMQ">
-              <styles xmi:type="notation:FontStyle" xmi:id="_Ek764YM2Eeq59Lg8Uv8JMQ" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_Ek764oM2Eeq59Lg8Uv8JMQ"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_Ek8h8IM2Eeq59Lg8Uv8JMQ" type="3010" element="_Ek2bUYM2Eeq59Lg8Uv8JMQ">
               <styles xmi:type="notation:FontStyle" xmi:id="_Ek8h8YM2Eeq59Lg8Uv8JMQ" fontName="Segoe UI" fontHeight="8"/>
@@ -824,25 +824,9 @@
               <styles xmi:type="notation:FontStyle" xmi:id="_S0q89H6JEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_S0q89X6JEeqtnPi8B86etA"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_S0rkAH6JEeqtnPi8B86etA" type="3010" element="_SjlM8H6JEeqtnPi8B86etA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_S0rkAX6JEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_S0rkAn6JEeqtnPi8B86etA"/>
-            </children>
             <children xmi:type="notation:Node" xmi:id="_S0rkA36JEeqtnPi8B86etA" type="3010" element="_SjlM8n6JEeqtnPi8B86etA">
               <styles xmi:type="notation:FontStyle" xmi:id="_S0rkBH6JEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_S0rkBX6JEeqtnPi8B86etA"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_S0rkBn6JEeqtnPi8B86etA" type="3010" element="_SjlM9H6JEeqtnPi8B86etA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_S0rkB36JEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_S0rkCH6JEeqtnPi8B86etA"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_U4vGcH6JEeqtnPi8B86etA" type="3010" element="_UnXCkH6JEeqtnPi8B86etA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_U4vGcX6JEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_U4vGcn6JEeqtnPi8B86etA"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_U4vGc36JEeqtnPi8B86etA" type="3010" element="_UnXpoH6JEeqtnPi8B86etA">
-              <styles xmi:type="notation:FontStyle" xmi:id="_U4vGdH6JEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_U4vGdX6JEeqtnPi8B86etA"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_U4vtgH6JEeqtnPi8B86etA" type="3010" element="_UnYQsn6JEeqtnPi8B86etA">
               <styles xmi:type="notation:FontStyle" xmi:id="_U4vtgX6JEeqtnPi8B86etA" fontName="Segoe UI" fontHeight="8"/>
@@ -1466,6 +1450,14 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
       </ownedElements>
+      <ownedElements xmi:type="diagram:DNodeListElement" uid="__ZzEIJesEeqEjcU498GQ3g" name="NewModel">
+        <target xmi:type="uml:Interaction" href="model.uml#_rBXl8IN1Eeq-QKSj3F1TGA"/>
+        <semanticElements xmi:type="uml:Interaction" href="model.uml#_rBXl8IN1Eeq-QKSj3F1TGA"/>
+        <ownedStyle xmi:type="diagram:Square" uid="__Z2ugJesEeqEjcU498GQ3g" labelAlignment="LEFT" labelPosition="node">
+          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
+      </ownedElements>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_yFbjwX6BEeqtnPi8B86etA" name="Conexiones" outgoingEdges="_U5C_xH6aEeqtnPi8B86etA" width="12" height="10">
       <target xmi:type="uml:Package" href="model.uml#_yFWEMH6BEeqtnPi8B86etA"/>
@@ -1498,12 +1490,6 @@
         <target xmi:type="uml:Association" href="model.uml#_eKoz0H6CEeqtnPi8B86etA"/>
         <semanticElements xmi:type="uml:Association" href="model.uml#_eKoz0H6CEeqtnPi8B86etA"/>
         <ownedStyle xmi:type="diagram:Square" uid="_nqYEsH6CEeqtnPi8B86etA" labelAlignment="LEFT" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_Ek10Q4M2Eeq59Lg8Uv8JMQ" name="LAN">
-        <ownedStyle xmi:type="diagram:Square" uid="_Ek2bUIM2Eeq59Lg8Uv8JMQ" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
@@ -1576,38 +1562,10 @@
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
       </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_SjlM8H6JEeqtnPi8B86etA" name="Computadora Emisora">
-        <ownedStyle xmi:type="diagram:Square" uid="_SjlM8X6JEeqtnPi8B86etA" labelAlignment="LEFT" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
-      </ownedElements>
       <ownedElements xmi:type="diagram:DNodeListElement" uid="_SjlM8n6JEeqtnPi8B86etA" name="Computadora Receptora">
         <target xmi:type="uml:Device" href="model.uml#_x3H0QH58EeqtnPi8B86etA"/>
         <semanticElements xmi:type="uml:Device" href="model.uml#_x3H0QH58EeqtnPi8B86etA"/>
         <ownedStyle xmi:type="diagram:Square" uid="_SjlM836JEeqtnPi8B86etA" labelAlignment="LEFT" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_SjlM9H6JEeqtnPi8B86etA" name="Computadora Receptora">
-        <ownedStyle xmi:type="diagram:Square" uid="_SjlM9X6JEeqtnPi8B86etA" labelAlignment="LEFT" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_UnXCkH6JEeqtnPi8B86etA" name="Emisor.jar">
-        <target xmi:type="uml:Artifact" href="model.uml#_PM9-0H57EeqtnPi8B86etA"/>
-        <semanticElements xmi:type="uml:Artifact" href="model.uml#_PM9-0H57EeqtnPi8B86etA"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_UnXCkX6JEeqtnPi8B86etA" labelAlignment="LEFT" labelPosition="node">
-          <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_UnXpoH6JEeqtnPi8B86etA" name="Receptor.jar">
-        <target xmi:type="uml:Artifact" href="model.uml#_PEBzUH59EeqtnPi8B86etA"/>
-        <semanticElements xmi:type="uml:Artifact" href="model.uml#_PEBzUH59EeqtnPi8B86etA"/>
-        <ownedStyle xmi:type="diagram:Square" uid="_UnXpoX6JEeqtnPi8B86etA" labelAlignment="LEFT" labelPosition="node">
           <description xmi:type="style:SquareDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Review']/@ownedRepresentations[name='Package%20Containment']/@defaultLayer/@containerMappings[name='PC_Package']/@subNodeMappings[name='PC_PackageableElement']"/>
