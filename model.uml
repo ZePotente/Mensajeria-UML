@@ -134,16 +134,6 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eKqB9H6CEeqtnPi8B86etA" value="*"/>
           </ownedEnd>
         </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_cgr-0IM1Eeq59Lg8Uv8JMQ" name="LAN" memberEnd="_cgr-0YM1Eeq59Lg8Uv8JMQ _cgr-1IM1Eeq59Lg8Uv8JMQ" navigableOwnedEnd="_cgr-0YM1Eeq59Lg8Uv8JMQ _cgr-1IM1Eeq59Lg8Uv8JMQ">
-          <ownedEnd xmi:id="_cgr-0YM1Eeq59Lg8Uv8JMQ" name="computadora Emisoras" type="_iSD10H56EeqtnPi8B86etA" association="_cgr-0IM1Eeq59Lg8Uv8JMQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cgr-0oM1Eeq59Lg8Uv8JMQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cgr-04M1Eeq59Lg8Uv8JMQ" value="*"/>
-          </ownedEnd>
-          <ownedEnd xmi:id="_cgr-1IM1Eeq59Lg8Uv8JMQ" name="computadora Receptoras" type="_Zzl-QH6GEeqtnPi8B86etA" association="_cgr-0IM1Eeq59Lg8Uv8JMQ">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cgr-1YM1Eeq59Lg8Uv8JMQ"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cgr-1oM1Eeq59Lg8Uv8JMQ" value="*"/>
-          </ownedEnd>
-        </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_9JkK8IM0Eeq59Lg8Uv8JMQ" name="LAN" memberEnd="_9JkK8YM0Eeq59Lg8Uv8JMQ _9JkK9IM0Eeq59Lg8Uv8JMQ" navigableOwnedEnd="_9JkK8YM0Eeq59Lg8Uv8JMQ _9JkK9IM0Eeq59Lg8Uv8JMQ">
           <ownedEnd xmi:id="_9JkK8YM0Eeq59Lg8Uv8JMQ" name="computadora Emisoras" type="_iSD10H56EeqtnPi8B86etA" association="_9JkK8IM0Eeq59Lg8Uv8JMQ">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9JkK8oM0Eeq59Lg8Uv8JMQ"/>
@@ -185,29 +175,23 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Device" xmi:id="_iSD10H56EeqtnPi8B86etA" name="Computadora Emisora">
           <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_CB2BUH57EeqtnPi8B86etA" name="J.R.E. 1.8">
-            <deployment xmi:id="_M5QOwH6GEeqtnPi8B86etA" client="_CB2BUH57EeqtnPi8B86etA" supplier="_PM9-0H57EeqtnPi8B86etA" deployedArtifact="_PM9-0H57EeqtnPi8B86etA"/>
+            <nestedClassifier xmi:type="uml:Artifact" xmi:id="_PM9-0H57EeqtnPi8B86etA" name="Emisor.jar"/>
           </nestedClassifier>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Device" xmi:id="_2rJN0H6FEeqtnPi8B86etA" name="Computadora Emisora">
-          <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_7NhM0H6FEeqtnPi8B86etA" name="J.R.E. 1.8">
-            <deployment xmi:id="_tOqP0H6GEeqtnPi8B86etA" client="_7NhM0H6FEeqtnPi8B86etA" supplier="_PM9-0H57EeqtnPi8B86etA" deployedArtifact="_PM9-0H57EeqtnPi8B86etA"/>
-          </nestedNode>
         </packagedElement>
         <packagedElement xmi:type="uml:Device" xmi:id="_x3H0QH58EeqtnPi8B86etA" name="Computadora Receptora">
           <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_MtVowH59EeqtnPi8B86etA" name="J.R.E. 1.8">
-            <deployment xmi:id="_QAOmwH6GEeqtnPi8B86etA" client="_MtVowH59EeqtnPi8B86etA" supplier="_PEBzUH59EeqtnPi8B86etA" deployedArtifact="_PEBzUH59EeqtnPi8B86etA"/>
+            <nestedClassifier xmi:type="uml:Artifact" xmi:id="_PEBzUH59EeqtnPi8B86etA" name="Receptor.jar"/>
           </nestedNode>
         </packagedElement>
-        <packagedElement xmi:type="uml:Device" xmi:id="_Zzl-QH6GEeqtnPi8B86etA" name="Computadora Receptora">
-          <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_eUhLwH6GEeqtnPi8B86etA" name="J.R.E. 1.8">
-            <deployment xmi:id="_trLzwH6GEeqtnPi8B86etA" client="_eUhLwH6GEeqtnPi8B86etA" supplier="_PEBzUH59EeqtnPi8B86etA" deployedArtifact="_PEBzUH59EeqtnPi8B86etA"/>
-          </nestedNode>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Artifact" xmi:id="_PM9-0H57EeqtnPi8B86etA" name="Emisor.jar"/>
-        <packagedElement xmi:type="uml:Artifact" xmi:id="_PEBzUH59EeqtnPi8B86etA" name="Receptor.jar"/>
         <packagedElement xmi:type="uml:Artifact" xmi:id="_Tj4p0H59EeqtnPi8B86etA" name="SonidoAlarma.wav"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_yFB38H59EeqtnPi8B86etA" client="_PEBzUH59EeqtnPi8B86etA" supplier="_Tj4p0H59EeqtnPi8B86etA"/>
         <packagedElement xmi:type="uml:Artifact" xmi:id="_VV9S8IM0Eeq59Lg8Uv8JMQ" name="configuracion.txt"/>
+        <profileApplication xmi:id="_psnmAJesEeqEjcU498GQ3g">
+          <eAnnotations xmi:id="_psnmAZesEeqEjcU498GQ3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+          </eAnnotations>
+          <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+        </profileApplication>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_9xKs4H9XEeqHIJCS-U4evg" name="IRecepcionMensaje"/>
@@ -302,9 +286,9 @@
       <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <standard:Executable xmi:id="_D0J3AH58EeqtnPi8B86etA" base_Artifact="_PM9-0H57EeqtnPi8B86etA"/>
-  <standard:Executable xmi:id="_SXVXIH59EeqtnPi8B86etA" base_Artifact="_PEBzUH59EeqtnPi8B86etA"/>
-  <standard:Executable xmi:id="_DDrDAH6BEeqtnPi8B86etA" base_Artifact="_nQJ4wH6AEeqtnPi8B86etA"/>
+  <standard:Executable xmi:id="_iFIQMJesEeqEjcU498GQ3g" base_Artifact="_PM9-0H57EeqtnPi8B86etA"/>
+  <standard:Executable xmi:id="_iFI3QJesEeqEjcU498GQ3g" base_Artifact="_PEBzUH59EeqtnPi8B86etA"/>
+  <standard:Executable xmi:id="_iFI3QZesEeqEjcU498GQ3g" base_Artifact="_nQJ4wH6AEeqtnPi8B86etA"/>
   <standard:Subsystem xmi:id="_9_ZFQH6KEeqtnPi8B86etA" base_Component="_qdjdUH6KEeqtnPi8B86etA"/>
   <standard:Subsystem xmi:id="_-iDGYH6KEeqtnPi8B86etA" base_Component="_sqJ3wH6KEeqtnPi8B86etA"/>
   <standard:Subsystem xmi:id="_-_8jUH6KEeqtnPi8B86etA" base_Component="_rxslwH6KEeqtnPi8B86etA"/>
