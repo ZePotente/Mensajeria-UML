@@ -451,6 +451,10 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2y_8sJfIEeqEjcU498GQ3g" name="UsuariosRegistrados" visibility="public">
+      <ownedAttribute xmi:id="_JFEQUJhBEeqvQ5DxjN0qQg" name="usuarios" visibility="private" type="_3p1eEJfIEeqEjcU498GQ3g" isUnique="false">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JFE3YJhBEeqvQ5DxjN0qQg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JFE3YZhBEeqvQ5DxjN0qQg" value="*"/>
+      </ownedAttribute>
       <interfaceRealization xmi:id="_4HUO0JfJEeqEjcU498GQ3g" client="_2y_8sJfIEeqEjcU498GQ3g" supplier="_0dsUEINBEeq59Lg8Uv8JMQ" contract="_0dsUEINBEeq59Lg8Uv8JMQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_3p1eEJfIEeqEjcU498GQ3g" name="Usuarios" visibility="public"/>
@@ -487,6 +491,9 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tIRR5JfKEeqEjcU498GQ3g" value="*"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_g8OIIJhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_0dsUEINBEeq59Lg8Uv8JMQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_hw9-0JhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_A453kINCEeq59Lg8Uv8JMQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_z2WP0JhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_YAX9AJfIEeqEjcU498GQ3g"/>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
