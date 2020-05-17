@@ -1,2 +1,2 @@
-#ignorar el .project
-.project
+#ignorar los .jpg
+*.jpg
