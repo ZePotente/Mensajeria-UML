@@ -2,16 +2,21 @@
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
   <uml:Model xmi:id="_F7ABAH53EeqtnPi8B86etA" name="NewModel">
     <packagedElement xmi:type="uml:Component" xmi:id="_qdjdUH6KEeqtnPi8B86etA" name="Emisor">
-      <ownedAttribute xmi:type="uml:Port" xmi:id="_Dwxe4H9YEeqHIJCS-U4evg" name="SocketTCP" aggregation="composite" isConjugated="true"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_Ql_VIIM6Eeq59Lg8Uv8JMQ" name="SocketTCP" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_cxuu4JlXEeq2m6bS8OZ7Ow" name="SocketTCP" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_o3LBQJlYEeq2m6bS8OZ7Ow" name="SocketTCP" aggregation="composite" isConjugated="true"/>
       <interfaceRealization xmi:id="_PhC7wIM5Eeq59Lg8Uv8JMQ" client="_2zwNgIM2Eeq59Lg8Uv8JMQ _qdjdUH6KEeqtnPi8B86etA" supplier="_xM8EEIM4Eeq59Lg8Uv8JMQ" contract="_xM8EEIM4Eeq59Lg8Uv8JMQ"/>
+      <interfaceRealization xmi:id="_yNhsoJlYEeq2m6bS8OZ7Ow" client="_qdjdUH6KEeqtnPi8B86etA _o3LBQJlYEeq2m6bS8OZ7Ow" supplier="_urhlgJlYEeq2m6bS8OZ7Ow" contract="_urhlgJlYEeq2m6bS8OZ7Ow"/>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_E1LeEH6bEeqtnPi8B86etA" name="VistaYControlador">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_H7MksYM5Eeq59Lg8Uv8JMQ" name="VistaYControladorPort" type="_E1LeEH6bEeqtnPi8B86etA"/>
         <interfaceRealization xmi:id="__4ADUH6jEeqtnPi8B86etA" client="_E1LeEH6bEeqtnPi8B86etA"/>
+        <interfaceRealization xmi:id="_BmAMIJlREeq2m6bS8OZ7Ow" client="_E1LeEH6bEeqtnPi8B86etA" supplier="_OiCk8H6bEeqtnPi8B86etA" contract="_OiCk8H6bEeqtnPi8B86etA"/>
       </nestedClassifier>
       <nestedClassifier xmi:type="uml:Component" xmi:id="_2zwNgIM2Eeq59Lg8Uv8JMQ" name="Modelo">
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_QPuRkIM3Eeq59Lg8Uv8JMQ" name="port1" aggregation="composite" redefinedProperty="_Dwxe4H9YEeqHIJCS-U4evg _Ql_VIIM6Eeq59Lg8Uv8JMQ" isConjugated="true" redefinedPort="_Dwxe4H9YEeqHIJCS-U4evg _Ql_VIIM6Eeq59Lg8Uv8JMQ"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_QPuRkIM3Eeq59Lg8Uv8JMQ" name="port1" aggregation="composite" isConjugated="true"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_hFXZAIM3Eeq59Lg8Uv8JMQ" name="port2" aggregation="composite" isConjugated="true"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_LwVDYJlXEeq2m6bS8OZ7Ow" name="port3" aggregation="composite" redefinedProperty="_cxuu4JlXEeq2m6bS8OZ7Ow" isConjugated="true" redefinedPort="_cxuu4JlXEeq2m6bS8OZ7Ow"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_h-sGgJlYEeq2m6bS8OZ7Ow" name="port4" aggregation="composite" redefinedProperty="_o3LBQJlYEeq2m6bS8OZ7Ow" isConjugated="true" redefinedPort="_o3LBQJlYEeq2m6bS8OZ7Ow"/>
         <interfaceRealization xmi:id="_R1CXoIM5Eeq59Lg8Uv8JMQ" client="_2zwNgIM2Eeq59Lg8Uv8JMQ _hFXZAIM3Eeq59Lg8Uv8JMQ" supplier="_xM8EEIM4Eeq59Lg8Uv8JMQ" contract="_xM8EEIM4Eeq59Lg8Uv8JMQ"/>
         <nestedClassifier xmi:type="uml:Component" xmi:id="_A-BRMH6ZEeqtnPi8B86etA" name="SistemaEmisor">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_rikKUn6aEeqtnPi8B86etA" name="SistemaEmisorPort" type="_A-BRMH6ZEeqtnPi8B86etA"/>
@@ -21,7 +26,7 @@
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Component" xmi:id="_Nd684H6YEeqtnPi8B86etA" name="InternetManager">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_rikKUH6aEeqtnPi8B86etA" name="InternetManagerPort" type="_Nd684H6YEeqtnPi8B86etA"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_R7EaYH9YEeqHIJCS-U4evg" name="port2" aggregation="composite" redefinedProperty="_Dwxe4H9YEeqHIJCS-U4evg _QPuRkIM3Eeq59Lg8Uv8JMQ" isConjugated="true" redefinedPort="_QPuRkIM3Eeq59Lg8Uv8JMQ"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_R7EaYH9YEeqHIJCS-U4evg" name="port2" aggregation="composite" redefinedProperty="_LwVDYJlXEeq2m6bS8OZ7Ow" isConjugated="true" redefinedPort="_LwVDYJlXEeq2m6bS8OZ7Ow"/>
           <ownedConnector xmi:id="_rijjQH6aEeqtnPi8B86etA" name="IConectionManager_IConectionManager_connector">
             <end xmi:id="_rikKUX6aEeqtnPi8B86etA" role="_rikKUH6aEeqtnPi8B86etA"/>
             <end xmi:id="_rikxYH6aEeqtnPi8B86etA" role="_rikKUn6aEeqtnPi8B86etA"/>
@@ -41,6 +46,11 @@
           <ownedOperation xmi:id="_sX6-cJlIEeqXhKxNYCSgfw" name="Operation_2"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Interface" xmi:id="_uD_j4IM9Eeq59Lg8Uv8JMQ" name="ArmableDesarmable"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_wbc88JlWEeq2m6bS8OZ7Ow" name="ServerRecepcion">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_ZK-qoJlXEeq2m6bS8OZ7Ow" name="port1" aggregation="composite" redefinedProperty="_LwVDYJlXEeq2m6bS8OZ7Ow _h-sGgJlYEeq2m6bS8OZ7Ow" isConjugated="true" redefinedPort="_h-sGgJlYEeq2m6bS8OZ7Ow"/>
+          <interfaceRealization xmi:id="_UT5m8JlXEeq2m6bS8OZ7Ow" client="_wbc88JlWEeq2m6bS8OZ7Ow" supplier="_G7_KoJlXEeq2m6bS8OZ7Ow" contract="_G7_KoJlXEeq2m6bS8OZ7Ow"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_G7_KoJlXEeq2m6bS8OZ7Ow" name="IServerRecepcion"/>
       </nestedClassifier>
       <packagedElement xmi:type="uml:Interface" xmi:id="_OiCk8H6bEeqtnPi8B86etA" name="IControlador">
         <ownedOperation xmi:id="_bdk9AJkjEeqcZud-QIlLnw" name="update"/>
@@ -53,9 +63,14 @@
       <ownedConnector xmi:id="_wWvfcH6kEeqtnPi8B86etA" name="Interface2_Interface2_connector">
         <end xmi:id="_wWvfcX6kEeqtnPi8B86etA"/>
       </ownedConnector>
+      <ownedConnector xmi:id="_DI2FoJlWEeq2m6bS8OZ7Ow" name="IRecepcionMensaje_IRecepcionMensaje_connector">
+        <end xmi:id="_DI2FoZlWEeq2m6bS8OZ7Ow" role="_DGHYUH9YEeqHIJCS-U4evg"/>
+        <end xmi:id="_DI2ssJlWEeq2m6bS8OZ7Ow" role="_u5BWUJlVEeq2m6bS8OZ7Ow"/>
+      </ownedConnector>
       <interfaceRealization xmi:id="_iPDogH6jEeqtnPi8B86etA" client="_rxslwH6KEeqtnPi8B86etA"/>
       <interfaceRealization xmi:id="_lsI98H6kEeqtnPi8B86etA" client="_rxslwH6KEeqtnPi8B86etA _wWvfcH6kEeqtnPi8B86etA"/>
       <interfaceRealization xmi:id="_EftogH9YEeqHIJCS-U4evg" client="_rxslwH6KEeqtnPi8B86etA _DGHYUH9YEeqHIJCS-U4evg"/>
+      <interfaceRealization xmi:id="_9QgZQJlVEeq2m6bS8OZ7Ow" client="_rxslwH6KEeqtnPi8B86etA _DGHYUH9YEeqHIJCS-U4evg _DI2FoJlWEeq2m6bS8OZ7Ow" supplier="_0tfPUJlVEeq2m6bS8OZ7Ow" contract="_0tfPUJlVEeq2m6bS8OZ7Ow"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_DtZAIIM8Eeq59Lg8Uv8JMQ" name="Modelo">
         <ownedAttribute xmi:type="uml:Port" xmi:id="_JKSGoIM8Eeq59Lg8Uv8JMQ" name="port1" aggregation="composite" redefinedProperty="_DGHYUH9YEeqHIJCS-U4evg _qN0mwINBEeq59Lg8Uv8JMQ" isConjugated="true" redefinedPort="_DGHYUH9YEeqHIJCS-U4evg _qN0mwINBEeq59Lg8Uv8JMQ"/>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_bjaSsIM_Eeq59Lg8Uv8JMQ" name="port2" aggregation="composite" isConjugated="true"/>
@@ -221,7 +236,7 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_M-71QINCEeq59Lg8Uv8JMQ" client="_AhK-8INAEeq59Lg8Uv8JMQ" supplier="_A453kINCEeq59Lg8Uv8JMQ"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_YhItIINCEeq59Lg8Uv8JMQ" name="IEnvioLista"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_lDmIIINCEeq59Lg8Uv8JMQ" client="_Ql_VIIM6Eeq59Lg8Uv8JMQ _5J69MINCEeq59Lg8Uv8JMQ" supplier="_YhItIINCEeq59Lg8Uv8JMQ"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_tzIrIINCEeq59Lg8Uv8JMQ" name="IConexion"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_tzIrIINCEeq59Lg8Uv8JMQ" name="ISesion"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_A64_IINDEeq59Lg8Uv8JMQ" client="_qN0mwINBEeq59Lg8Uv8JMQ _Tj5hoINDEeq59Lg8Uv8JMQ" supplier="_tzIrIINCEeq59Lg8Uv8JMQ"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_uL-DQH6fEeqtnPi8B86etA" client="_Nd684H6YEeqtnPi8B86etA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_g4O_gH6jEeqtnPi8B86etA" client="_Nd684H6YEeqtnPi8B86etA"/>
@@ -233,7 +248,7 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_Az_KcH6kEeqtnPi8B86etA" client="_A-BRMH6ZEeqtnPi8B86etA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_GS_kAH9YEeqHIJCS-U4evg" client="_Nd684H6YEeqtnPi8B86etA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_HB5RYH9YEeqHIJCS-U4evg" client="_Nd684H6YEeqtnPi8B86etA"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_Hj8OgH9YEeqHIJCS-U4evg" client="_Dwxe4H9YEeqHIJCS-U4evg"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Hj8OgH9YEeqHIJCS-U4evg"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_dWeRIINSEeq59Lg8Uv8JMQ" name="Emisor">
       <eAnnotations xmi:id="_dWeRIYNSEeq59Lg8Uv8JMQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <details xmi:id="_dWeRIoNSEeq59Lg8Uv8JMQ" key="Human"/>
@@ -372,6 +387,25 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_ChdnIJhGEeqvQ5DxjN0qQg" client="_3LLgEJewEeqEjcU498GQ3g" supplier="_XvybgJhFEeqvQ5DxjN0qQg"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_eV6cEJkjEeqcZud-QIlLnw" client="_3LLgEJewEeqEjcU498GQ3g"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_-0HSIJk2EeqcZud-QIlLnw" client="_3LLgEJewEeqEjcU498GQ3g" supplier="_VLKCEJk2EeqcZud-QIlLnw"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_xld1gJhEEeqvQ5DxjN0qQg" name="configuracionE">
+        <packagedElement xmi:type="uml:Class" xmi:id="_3bdYgJhEEeqvQ5DxjN0qQg" name="LectorConfiguracion" visibility="public">
+          <interfaceRealization xmi:id="_BE14IJhGEeqvQ5DxjN0qQg" client="_3bdYgJhEEeqvQ5DxjN0qQg" supplier="_XvybgJhFEeqvQ5DxjN0qQg" contract="_XvybgJhFEeqvQ5DxjN0qQg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_AFlQAJhFEeqvQ5DxjN0qQg" name="Configuracion" visibility="public">
+          <ownedAttribute xmi:id="_SVkOgJhFEeqvQ5DxjN0qQg" name="nrpipDirectorio" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SVk1kJhFEeqvQ5DxjN0qQg" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SVk1kZhFEeqvQ5DxjN0qQg" value="1"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_XvybgJhFEeqvQ5DxjN0qQg" name="IConfiguracion" visibility="public">
+          <ownedOperation xmi:id="_Zc-WEJhFEeqvQ5DxjN0qQg" name="leerConfig">
+            <ownedParameter xmi:id="_nKkHcJhFEeqvQ5DxjN0qQg" name="archivo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ky18MJfDEeqEjcU498GQ3g" name="SistemaDirectorio" visibility="public">
       <ownedAttribute xmi:id="_RtZGkJfJEeqEjcU498GQ3g" name="mancon" visibility="private" type="_2DSo8JfGEeqEjcU498GQ3g">
@@ -483,25 +517,6 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_g8OIIJhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_0dsUEINBEeq59Lg8Uv8JMQ"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_hw9-0JhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_A453kINCEeq59Lg8Uv8JMQ"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_z2WP0JhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_YAX9AJfIEeqEjcU498GQ3g"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_xld1gJhEEeqvQ5DxjN0qQg" name="configuracionE">
-      <packagedElement xmi:type="uml:Class" xmi:id="_3bdYgJhEEeqvQ5DxjN0qQg" name="LectorConfiguracion" visibility="public">
-        <interfaceRealization xmi:id="_BE14IJhGEeqvQ5DxjN0qQg" client="_3bdYgJhEEeqvQ5DxjN0qQg" supplier="_XvybgJhFEeqvQ5DxjN0qQg" contract="_XvybgJhFEeqvQ5DxjN0qQg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_AFlQAJhFEeqvQ5DxjN0qQg" name="Configuracion" visibility="public">
-        <ownedAttribute xmi:id="_SVkOgJhFEeqvQ5DxjN0qQg" name="nrpipDirectorio" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SVk1kJhFEeqvQ5DxjN0qQg" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SVk1kZhFEeqvQ5DxjN0qQg" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_XvybgJhFEeqvQ5DxjN0qQg" name="IConfiguracion" visibility="public">
-        <ownedOperation xmi:id="_Zc-WEJhFEeqvQ5DxjN0qQg" name="leerConfig">
-          <ownedParameter xmi:id="_nKkHcJhFEeqvQ5DxjN0qQg" name="archivo">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          </ownedParameter>
-        </ownedOperation>
-      </packagedElement>
-    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_w4_aIJh9EeqsF5fPE9t1pQ" name="modeloR">
       <packagedElement xmi:type="uml:Package" xmi:id="_CJscEJexEeqEjcU498GQ3g" name="mensaje">
         <packagedElement xmi:type="uml:Class" xmi:id="_EEwakJexEeqEjcU498GQ3g" name="Mensaje" visibility="public">
@@ -834,6 +849,43 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CX0gFplQEeq2m6bS8OZ7Ow" value="*"/>
       </ownedEnd>
     </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ztK0EJlQEeq2m6bS8OZ7Ow" name="Servidor Mensajes">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_bmekEJlUEeq2m6bS8OZ7Ow" name="SocketTCP" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_u5BWUJlVEeq2m6bS8OZ7Ow" name="SocketTCP" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_w17u8JlVEeq2m6bS8OZ7Ow" name="SocketTCP" aggregation="composite" isConjugated="true"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_GAhWAJlZEeq2m6bS8OZ7Ow" name="SocketTCP" aggregation="composite" isConjugated="true"/>
+      <ownedConnector xmi:id="_KiGnoJlVEeq2m6bS8OZ7Ow" name="IEnvioMensaje_IEnvioMensaje_connector">
+        <end xmi:id="_KiGnoZlVEeq2m6bS8OZ7Ow" role="_bmekEJlUEeq2m6bS8OZ7Ow"/>
+        <end xmi:id="_KiGnoplVEeq2m6bS8OZ7Ow"/>
+      </ownedConnector>
+      <interfaceRealization xmi:id="_JtIugJlVEeq2m6bS8OZ7Ow" client="_bmekEJlUEeq2m6bS8OZ7Ow _ztK0EJlQEeq2m6bS8OZ7Ow _KiGnoJlVEeq2m6bS8OZ7Ow" supplier="_4mFG8JlUEeq2m6bS8OZ7Ow" contract="_4mFG8JlUEeq2m6bS8OZ7Ow"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_-dXVUJlSEeq2m6bS8OZ7Ow" name="SistemaMensajes"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_FoVuQJlTEeq2m6bS8OZ7Ow" name="Agenda">
+        <interfaceRealization xmi:id="_ews50JlTEeq2m6bS8OZ7Ow" client="_FoVuQJlTEeq2m6bS8OZ7Ow" supplier="_WEtaEJlTEeq2m6bS8OZ7Ow" contract="_WEtaEJlTEeq2m6bS8OZ7Ow"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_MhsywJlTEeq2m6bS8OZ7Ow" name="Persistencia">
+        <interfaceRealization xmi:id="_i_wUMJlTEeq2m6bS8OZ7Ow" client="_MhsywJlTEeq2m6bS8OZ7Ow" supplier="_hBl-YJlTEeq2m6bS8OZ7Ow" contract="_hBl-YJlTEeq2m6bS8OZ7Ow"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_OUfmEJlTEeq2m6bS8OZ7Ow" name="InternetManager">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_a1S-wJlUEeq2m6bS8OZ7Ow" name="port1" aggregation="composite" redefinedProperty="_bmekEJlUEeq2m6bS8OZ7Ow _u5BWUJlVEeq2m6bS8OZ7Ow _w17u8JlVEeq2m6bS8OZ7Ow _GAhWAJlZEeq2m6bS8OZ7Ow" isConjugated="true" redefinedPort="_bmekEJlUEeq2m6bS8OZ7Ow _u5BWUJlVEeq2m6bS8OZ7Ow _w17u8JlVEeq2m6bS8OZ7Ow _GAhWAJlZEeq2m6bS8OZ7Ow"/>
+        <interfaceRealization xmi:id="_67n3cJlTEeq2m6bS8OZ7Ow" client="_OUfmEJlTEeq2m6bS8OZ7Ow" supplier="_3lAg8JlTEeq2m6bS8OZ7Ow" contract="_3lAg8JlTEeq2m6bS8OZ7Ow"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_WEtaEJlTEeq2m6bS8OZ7Ow" name="IAgenda"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_hBl-YJlTEeq2m6bS8OZ7Ow" name="IPersistencia"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_3lAg8JlTEeq2m6bS8OZ7Ow" name="IInternetManager"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="__v93kJlQEeq2m6bS8OZ7Ow" client="_hFXZAIM3Eeq59Lg8Uv8JMQ" supplier="_OiCk8H6bEeqtnPi8B86etA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_gEZWUJlTEeq2m6bS8OZ7Ow" client="_-dXVUJlSEeq2m6bS8OZ7Ow" supplier="_WEtaEJlTEeq2m6bS8OZ7Ow"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_jY0UcJlTEeq2m6bS8OZ7Ow" client="_-dXVUJlSEeq2m6bS8OZ7Ow" supplier="_hBl-YJlTEeq2m6bS8OZ7Ow"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_6YGToJlTEeq2m6bS8OZ7Ow" client="_-dXVUJlSEeq2m6bS8OZ7Ow" supplier="_3lAg8JlTEeq2m6bS8OZ7Ow"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_qxeHkJlUEeq2m6bS8OZ7Ow" client="_w17u8JlVEeq2m6bS8OZ7Ow" supplier="_YhItIINCEeq59Lg8Uv8JMQ"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_4mFG8JlUEeq2m6bS8OZ7Ow" name="IEnvioMensaje"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_9ud9EJlUEeq2m6bS8OZ7Ow" client="_KiGnoJlVEeq2m6bS8OZ7Ow _cxuu4JlXEeq2m6bS8OZ7Ow" supplier="_4mFG8JlUEeq2m6bS8OZ7Ow"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_0tfPUJlVEeq2m6bS8OZ7Ow" name="IRecepcionMensaje"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_AzhNAJlWEeq2m6bS8OZ7Ow" client="_u5BWUJlVEeq2m6bS8OZ7Ow _DI2FoJlWEeq2m6bS8OZ7Ow" supplier="_0tfPUJlVEeq2m6bS8OZ7Ow"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_Svyv4JlXEeq2m6bS8OZ7Ow" client="_A-BRMH6ZEeqtnPi8B86etA" supplier="_G7_KoJlXEeq2m6bS8OZ7Ow"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_urhlgJlYEeq2m6bS8OZ7Ow" name="IRecepcion"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_40qYsJlYEeq2m6bS8OZ7Ow" client="_GAhWAJlZEeq2m6bS8OZ7Ow" supplier="_urhlgJlYEeq2m6bS8OZ7Ow"/>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
@@ -847,4 +899,5 @@
   <standard:Subsystem xmi:id="_9_ZFQH6KEeqtnPi8B86etA" base_Component="_qdjdUH6KEeqtnPi8B86etA"/>
   <standard:Subsystem xmi:id="_-iDGYH6KEeqtnPi8B86etA" base_Component="_sqJ3wH6KEeqtnPi8B86etA"/>
   <standard:Subsystem xmi:id="_-_8jUH6KEeqtnPi8B86etA" base_Component="_rxslwH6KEeqtnPi8B86etA"/>
+  <standard:Subsystem xmi:id="_FfkXUJlUEeq2m6bS8OZ7Ow" base_Component="_ztK0EJlQEeq2m6bS8OZ7Ow"/>
 </xmi:XMI>
