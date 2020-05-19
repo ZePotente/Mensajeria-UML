@@ -360,6 +360,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SDCJgZhEEeqvQ5DxjN0qQg" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SDCJgphEEeqvQ5DxjN0qQg" value="1"/>
         </ownedAttribute>
+        <ownedAttribute xmi:id="_1sJDYJlqEeqSPqDq1oijjA" name="sv" type="_3LLgEJewEeqEjcU498GQ3g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_dFeFAJe8EeqEjcU498GQ3g" name="manager" memberEnd="_dFesEJe8EeqEjcU498GQ3g _dFfTIpe8EeqEjcU498GQ3g" navigableOwnedEnd="_dFfTIpe8EeqEjcU498GQ3g">
         <ownedEnd xmi:id="_dFesEJe8EeqEjcU498GQ3g" name="sistemas" type="_3LLgEJewEeqEjcU498GQ3g" association="_dFeFAJe8EeqEjcU498GQ3g">
@@ -406,6 +407,27 @@
           </ownedOperation>
         </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_D3K0IJlqEeqSPqDq1oijjA" name="ServerRecepcion" visibility="public">
+        <interfaceRealization xmi:id="_zM_gYJlqEeqSPqDq1oijjA" client="_D3K0IJlqEeqSPqDq1oijjA" supplier="_sBEFMJlqEeqSPqDq1oijjA" contract="_sBEFMJlqEeqSPqDq1oijjA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_sBEFMJlqEeqSPqDq1oijjA" name="IServerRecepcion" visibility="public">
+        <ownedOperation xmi:id="_wIJ2YJlqEeqSPqDq1oijjA" name="escucharNotificaciones"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_0zVzIJlqEeqSPqDq1oijjA" client="_3LLgEJewEeqEjcU498GQ3g" supplier="_sBEFMJlqEeqSPqDq1oijjA"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_-LRL0JlqEeqSPqDq1oijjA" memberEnd="_-LRy4JlqEeqSPqDq1oijjA _-LxiIJlqEeqSPqDq1oijjA" navigableOwnedEnd="_-LxiIJlqEeqSPqDq1oijjA">
+        <ownedEnd xmi:id="_-LRy4JlqEeqSPqDq1oijjA" name="sistemaEmisors" type="_3LLgEJewEeqEjcU498GQ3g" association="_-LRL0JlqEeqSPqDq1oijjA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-Lw7EJlqEeqSPqDq1oijjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-Lw7EZlqEeqSPqDq1oijjA" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:id="_-LxiIJlqEeqSPqDq1oijjA" name="serverRecepcions" type="_D3K0IJlqEeqSPqDq1oijjA" aggregation="composite" association="_-LRL0JlqEeqSPqDq1oijjA">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-LxiIZlqEeqSPqDq1oijjA"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-LyJMJlqEeqSPqDq1oijjA" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ILproJlrEeqSPqDq1oijjA" name="FactoryMensajes" visibility="public"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_SCyI0JlrEeqSPqDq1oijjA" client="_ILproJlrEeqSPqDq1oijjA" supplier="_3LLgEJewEeqEjcU498GQ3g"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_tryFIJlrEeqSPqDq1oijjA" client="_3LLgEJewEeqEjcU498GQ3g" supplier="_Zdpu0JkyEeqcZud-QIlLnw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_vZUlAJlrEeqSPqDq1oijjA" client="_D3K0IJlqEeqSPqDq1oijjA" supplier="_VLKCEJk2EeqcZud-QIlLnw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_ky18MJfDEeqEjcU498GQ3g" name="SistemaDirectorio" visibility="public">
       <ownedAttribute xmi:id="_RtZGkJfJEeqEjcU498GQ3g" name="mancon" visibility="private" type="_2DSo8JfGEeqEjcU498GQ3g">
