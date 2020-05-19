@@ -445,7 +445,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_pL18wJfDEeqEjcU498GQ3g" name="Echo">
       <packagedElement xmi:type="uml:Class" xmi:id="_2DSo8JfGEeqEjcU498GQ3g" name="ManejadorConexiones" visibility="public">
-        <ownedAttribute xmi:id="_CJO_sJfKEeqEjcU498GQ3g" name="conexiones" visibility="public" type="_6hwYUJfGEeqEjcU498GQ3g">
+        <ownedAttribute xmi:id="_CJO_sJfKEeqEjcU498GQ3g" name="conexiones" visibility="private" type="_6hwYUJfGEeqEjcU498GQ3g">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CJO_sZfKEeqEjcU498GQ3g" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CJO_spfKEeqEjcU498GQ3g" value="1"/>
         </ownedAttribute>
@@ -908,6 +908,12 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_Svyv4JlXEeq2m6bS8OZ7Ow" client="_A-BRMH6ZEeqtnPi8B86etA" supplier="_G7_KoJlXEeq2m6bS8OZ7Ow"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_urhlgJlYEeq2m6bS8OZ7Ow" name="IRecepcion"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_40qYsJlYEeq2m6bS8OZ7Ow" client="_GAhWAJlZEeq2m6bS8OZ7Ow" supplier="_urhlgJlYEeq2m6bS8OZ7Ow"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Vj0UsJltEeqSPqDq1oijjA" name="FormateadorListaUsuarios" visibility="public">
+      <ownedOperation xmi:id="_X0KmsJltEeqSPqDq1oijjA" name="escribeListUsuarios" isStatic="true">
+        <ownedParameter xmi:id="_gdHZgJltEeqSPqDq1oijjA" name="usuarios" type="_2y_8sJfIEeqEjcU498GQ3g"/>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_mC1E0JltEeqSPqDq1oijjA" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_Vj0UsJltEeqSPqDq1oijjA"/>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
