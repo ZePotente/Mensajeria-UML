@@ -190,7 +190,7 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_IefMQH6JEeqtnPi8B86etA" name="NodosDespliegue">
         <packagedElement xmi:type="uml:Device" xmi:id="_QJvzUH5_EeqtnPi8B86etA" name="Computadora Directorio">
           <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_UQfmQH5_EeqtnPi8B86etA" name="J.R.E. 1.8">
-            <nestedClassifier xmi:type="uml:Artifact" xmi:id="_nQJ4wH6AEeqtnPi8B86etA" name="Server.jar"/>
+            <deployment xmi:id="_Xvea8KBzEeqkuK8WdTiwhg" client="_UQfmQH5_EeqtnPi8B86etA" supplier="_nQJ4wH6AEeqtnPi8B86etA" deployedArtifact="_nQJ4wH6AEeqtnPi8B86etA"/>
           </nestedNode>
         </packagedElement>
         <packagedElement xmi:type="uml:Device" xmi:id="_iSD10H56EeqtnPi8B86etA" name="Computadora Emisora">
@@ -914,6 +914,13 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_mC1E0JltEeqSPqDq1oijjA" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_Vj0UsJltEeqSPqDq1oijjA"/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_nQJ4wH6AEeqtnPi8B86etA" name="Server.jar"/>
+    <packagedElement xmi:type="uml:Device" xmi:id="_EivgUKBzEeqkuK8WdTiwhg" name="Computadora Directorio">
+      <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_F7qbEKBzEeqkuK8WdTiwhg" name="J.R.E. 1.8">
+        <deployment xmi:id="_V3p9sKBzEeqkuK8WdTiwhg" client="_F7qbEKBzEeqkuK8WdTiwhg" supplier="_nQJ4wH6AEeqtnPi8B86etA" deployedArtifact="_nQJ4wH6AEeqtnPi8B86etA"/>
+      </nestedClassifier>
+      <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_EivgUaBzEeqkuK8WdTiwhg" name="J.R.E. 1.8"/>
+    </packagedElement>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
