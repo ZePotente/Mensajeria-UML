@@ -48,7 +48,7 @@
           <ownedOperation xmi:id="_KRpEYJlCEeqXhKxNYCSgfw" name="Operation_1"/>
           <ownedOperation xmi:id="_sX6-cJlIEeqXhKxNYCSgfw" name="Operation_2"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Interface" xmi:id="_uD_j4IM9Eeq59Lg8Uv8JMQ" name="ArmableDesarmable"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_uD_j4IM9Eeq59Lg8Uv8JMQ" name="ArmableDesarmableE"/>
         <packagedElement xmi:type="uml:Component" xmi:id="_wbc88JlWEeq2m6bS8OZ7Ow" name="ServerRecepcion">
           <ownedAttribute xmi:type="uml:Port" xmi:id="_ZK-qoJlXEeq2m6bS8OZ7Ow" name="port1" aggregation="composite" redefinedProperty="_LwVDYJlXEeq2m6bS8OZ7Ow _h-sGgJlYEeq2m6bS8OZ7Ow" isConjugated="true" redefinedPort="_h-sGgJlYEeq2m6bS8OZ7Ow"/>
           <interfaceRealization xmi:id="_UT5m8JlXEeq2m6bS8OZ7Ow" client="_wbc88JlWEeq2m6bS8OZ7Ow" supplier="_G7_KoJlXEeq2m6bS8OZ7Ow" contract="_G7_KoJlXEeq2m6bS8OZ7Ow"/>
