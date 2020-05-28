@@ -35,6 +35,9 @@
           <interfaceRealization xmi:id="_s9DRUIM6Eeq59Lg8Uv8JMQ" client="_Nd684H6YEeqtnPi8B86etA" supplier="_pCoDIIM6Eeq59Lg8Uv8JMQ" contract="_pCoDIIM6Eeq59Lg8Uv8JMQ"/>
           <ownedOperation xmi:id="_BfmKgJlDEeqXhKxNYCSgfw" name="Operation_1"/>
         </nestedClassifier>
+        <nestedClassifier xmi:type="uml:Component" xmi:id="_eTCOgKE3EeqVEt4Do8SBmw" name="Encriptador">
+          <interfaceRealization xmi:id="_T0SiQKE4EeqVEt4Do8SBmw" client="_eTCOgKE3EeqVEt4Do8SBmw" supplier="_OupeIKE4EeqVEt4Do8SBmw" contract="_OupeIKE4EeqVEt4Do8SBmw"/>
+        </nestedClassifier>
         <packagedElement xmi:type="uml:Component" xmi:id="_AYUUAIM3Eeq59Lg8Uv8JMQ" name="Agenda">
           <interfaceRealization xmi:id="_HE5EQIM4Eeq59Lg8Uv8JMQ" client="_AYUUAIM3Eeq59Lg8Uv8JMQ" supplier="_CljLIIM4Eeq59Lg8Uv8JMQ" contract="_CljLIIM4Eeq59Lg8Uv8JMQ"/>
         </packagedElement>
@@ -51,6 +54,7 @@
           <interfaceRealization xmi:id="_UT5m8JlXEeq2m6bS8OZ7Ow" client="_wbc88JlWEeq2m6bS8OZ7Ow" supplier="_G7_KoJlXEeq2m6bS8OZ7Ow" contract="_G7_KoJlXEeq2m6bS8OZ7Ow"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Interface" xmi:id="_G7_KoJlXEeq2m6bS8OZ7Ow" name="IServerRecepcion"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_OupeIKE4EeqVEt4Do8SBmw" name="Encriptacion"/>
       </nestedClassifier>
       <packagedElement xmi:type="uml:Interface" xmi:id="_OiCk8H6bEeqtnPi8B86etA" name="IControlador">
         <ownedOperation xmi:id="_bdk9AJkjEeqcZud-QIlLnw" name="update"/>
@@ -945,6 +949,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_mC1E0JltEeqSPqDq1oijjA" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_Vj0UsJltEeqSPqDq1oijjA"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_VN_gIKE4EeqVEt4Do8SBmw" client="_Nd684H6YEeqtnPi8B86etA" supplier="_OupeIKE4EeqVEt4Do8SBmw"/>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
