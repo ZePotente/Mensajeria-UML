@@ -190,7 +190,7 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_IefMQH6JEeqtnPi8B86etA" name="NodosDespliegue">
         <packagedElement xmi:type="uml:Device" xmi:id="_QJvzUH5_EeqtnPi8B86etA" name="Computadora Directorio">
           <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_UQfmQH5_EeqtnPi8B86etA" name="J.R.E. 1.8">
-            <deployment xmi:id="_Xvea8KBzEeqkuK8WdTiwhg" client="_UQfmQH5_EeqtnPi8B86etA" supplier="_nQJ4wH6AEeqtnPi8B86etA" deployedArtifact="_nQJ4wH6AEeqtnPi8B86etA"/>
+            <nestedClassifier xmi:type="uml:Artifact" xmi:id="_nQJ4wH6AEeqtnPi8B86etA" name="Server.jar"/>
           </nestedNode>
         </packagedElement>
         <packagedElement xmi:type="uml:Device" xmi:id="_iSD10H56EeqtnPi8B86etA" name="Computadora Emisora">
@@ -914,12 +914,51 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_mC1E0JltEeqSPqDq1oijjA" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_Vj0UsJltEeqSPqDq1oijjA"/>
-    <packagedElement xmi:type="uml:Artifact" xmi:id="_nQJ4wH6AEeqtnPi8B86etA" name="Server.jar"/>
     <packagedElement xmi:type="uml:Device" xmi:id="_EivgUKBzEeqkuK8WdTiwhg" name="Computadora Directorio">
       <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_F7qbEKBzEeqkuK8WdTiwhg" name="J.R.E. 1.8">
-        <deployment xmi:id="_V3p9sKBzEeqkuK8WdTiwhg" client="_F7qbEKBzEeqkuK8WdTiwhg" supplier="_nQJ4wH6AEeqtnPi8B86etA" deployedArtifact="_nQJ4wH6AEeqtnPi8B86etA"/>
+        <nestedClassifier xmi:type="uml:Artifact" xmi:id="_wA33YKB1EeqkuK8WdTiwhg" name="Server.jar"/>
       </nestedClassifier>
       <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_EivgUaBzEeqkuK8WdTiwhg" name="J.R.E. 1.8"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_3lZYwKB1EeqkuK8WdTiwhg" name="TCP/IP" memberEnd="_3lZYwaB1EeqkuK8WdTiwhg _3lam4KB1EeqkuK8WdTiwhg" navigableOwnedEnd="_3lZYwaB1EeqkuK8WdTiwhg _3lam4KB1EeqkuK8WdTiwhg">
+      <ownedEnd xmi:id="_3lZYwaB1EeqkuK8WdTiwhg" name="emisor.jars" type="_PM9-0H57EeqtnPi8B86etA" association="_3lZYwKB1EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3lZ_0KB1EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3lZ_0aB1EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_3lam4KB1EeqkuK8WdTiwhg" name="server.jars" type="_wA33YKB1EeqkuK8WdTiwhg" association="_3lZYwKB1EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3lam4aB1EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3lbN8KB1EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_7c5OwKB1EeqkuK8WdTiwhg" name="TCP/IP" memberEnd="_7c510KB1EeqkuK8WdTiwhg _7c5106B1EeqkuK8WdTiwhg" navigableOwnedEnd="_7c510KB1EeqkuK8WdTiwhg _7c5106B1EeqkuK8WdTiwhg">
+      <ownedEnd xmi:id="_7c510KB1EeqkuK8WdTiwhg" name="serverMensajes.jars" type="_JzgrAJlPEeq2m6bS8OZ7Ow" association="_7c5OwKB1EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7c510aB1EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7c510qB1EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_7c5106B1EeqkuK8WdTiwhg" name="server.jars" type="_wA33YKB1EeqkuK8WdTiwhg" association="_7c5OwKB1EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7c511KB1EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7c511aB1EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8HnmwKB1EeqkuK8WdTiwhg" name="TCP/IP" memberEnd="_8HnmwaB1EeqkuK8WdTiwhg _8HnmxKB1EeqkuK8WdTiwhg" navigableOwnedEnd="_8HnmwaB1EeqkuK8WdTiwhg _8HnmxKB1EeqkuK8WdTiwhg">
+      <ownedEnd xmi:id="_8HnmwaB1EeqkuK8WdTiwhg" name="receptor.jars" type="_PEBzUH59EeqtnPi8B86etA" association="_8HnmwKB1EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8HnmwqB1EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8Hnmw6B1EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_8HnmxKB1EeqkuK8WdTiwhg" name="server.jars" type="_wA33YKB1EeqkuK8WdTiwhg" association="_8HnmwKB1EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8HnmxaB1EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8HnmxqB1EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GNXHsKB2EeqkuK8WdTiwhg" name="TCP/IP" memberEnd="_GNYV0KB2EeqkuK8WdTiwhg _GNY84aB2EeqkuK8WdTiwhg" navigableOwnedEnd="_GNYV0KB2EeqkuK8WdTiwhg _GNY84aB2EeqkuK8WdTiwhg">
+      <ownedEnd xmi:id="_GNYV0KB2EeqkuK8WdTiwhg" name="server.jars" type="_nQJ4wH6AEeqtnPi8B86etA" association="_GNXHsKB2EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GNYV0aB2EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GNY84KB2EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
+      <ownedEnd xmi:id="_GNY84aB2EeqkuK8WdTiwhg" name="server.jars" type="_wA33YKB1EeqkuK8WdTiwhg" association="_GNXHsKB2EeqkuK8WdTiwhg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GNY84qB2EeqkuK8WdTiwhg"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GNY846B2EeqkuK8WdTiwhg" value="*"/>
+      </ownedEnd>
     </packagedElement>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -935,4 +974,5 @@
   <standard:Subsystem xmi:id="_-iDGYH6KEeqtnPi8B86etA" base_Component="_sqJ3wH6KEeqtnPi8B86etA"/>
   <standard:Subsystem xmi:id="_-_8jUH6KEeqtnPi8B86etA" base_Component="_rxslwH6KEeqtnPi8B86etA"/>
   <standard:Subsystem xmi:id="_FfkXUJlUEeq2m6bS8OZ7Ow" base_Component="_ztK0EJlQEeq2m6bS8OZ7Ow"/>
+  <standard:Executable xmi:id="_0AaPEKB1EeqkuK8WdTiwhg" base_Artifact="_wA33YKB1EeqkuK8WdTiwhg"/>
 </xmi:XMI>
