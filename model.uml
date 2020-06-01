@@ -188,16 +188,6 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_--3ANplPEeq2m6bS8OZ7Ow" value="*"/>
           </ownedEnd>
         </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_7c5OwKB1EeqkuK8WdTiwhg" name="TCP/IP" memberEnd="_7c510KB1EeqkuK8WdTiwhg _7c5106B1EeqkuK8WdTiwhg" navigableOwnedEnd="_7c510KB1EeqkuK8WdTiwhg _7c5106B1EeqkuK8WdTiwhg">
-          <ownedEnd xmi:id="_7c510KB1EeqkuK8WdTiwhg" name="serverMensajes.jars" type="_JzgrAJlPEeq2m6bS8OZ7Ow" association="_7c5OwKB1EeqkuK8WdTiwhg">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7c510aB1EeqkuK8WdTiwhg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7c510qB1EeqkuK8WdTiwhg" value="*"/>
-          </ownedEnd>
-          <ownedEnd xmi:id="_7c5106B1EeqkuK8WdTiwhg" name="server.jars" type="_wA33YKB1EeqkuK8WdTiwhg" association="_7c5OwKB1EeqkuK8WdTiwhg">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7c511KB1EeqkuK8WdTiwhg"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7c511aB1EeqkuK8WdTiwhg" value="*"/>
-          </ownedEnd>
-        </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_8HnmwKB1EeqkuK8WdTiwhg" name="TCP/IP" memberEnd="_8HnmwaB1EeqkuK8WdTiwhg _8HnmxKB1EeqkuK8WdTiwhg" navigableOwnedEnd="_8HnmwaB1EeqkuK8WdTiwhg _8HnmxKB1EeqkuK8WdTiwhg">
           <ownedEnd xmi:id="_8HnmwaB1EeqkuK8WdTiwhg" name="receptor.jars" type="_PEBzUH59EeqtnPi8B86etA" association="_8HnmwKB1EeqkuK8WdTiwhg">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8HnmwqB1EeqkuK8WdTiwhg"/>
