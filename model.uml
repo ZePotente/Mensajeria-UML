@@ -470,61 +470,6 @@
         </packagedElement>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ky18MJfDEeqEjcU498GQ3g" name="SistemaDirectorio" visibility="public">
-      <ownedAttribute xmi:id="_RtZGkJfJEeqEjcU498GQ3g" name="mancon" visibility="private" type="_2DSo8JfGEeqEjcU498GQ3g">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RtZGkZfJEeqEjcU498GQ3g" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RtZGkpfJEeqEjcU498GQ3g" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_Zb1Y8JfJEeqEjcU498GQ3g" name="usuarios" visibility="private" type="_2y_8sJfIEeqEjcU498GQ3g">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zb1Y8ZfJEeqEjcU498GQ3g" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zb1Y8pfJEeqEjcU498GQ3g" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:id="_k4M5IJfKEeqEjcU498GQ3g" name="sv" visibility="private" type="_RMduUJfKEeqEjcU498GQ3g">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k4M5IZfKEeqEjcU498GQ3g" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k4M5IpfKEeqEjcU498GQ3g" value="1"/>
-      </ownedAttribute>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_pL18wJfDEeqEjcU498GQ3g" name="Echo">
-      <packagedElement xmi:type="uml:Class" xmi:id="_2DSo8JfGEeqEjcU498GQ3g" name="ManejadorConexiones" visibility="public">
-        <ownedAttribute xmi:id="_CJO_sJfKEeqEjcU498GQ3g" name="conexiones" visibility="private" type="_6hwYUJfGEeqEjcU498GQ3g">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CJO_sZfKEeqEjcU498GQ3g" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CJO_spfKEeqEjcU498GQ3g" value="1"/>
-        </ownedAttribute>
-        <interfaceRealization xmi:id="_oF9EAJfJEeqEjcU498GQ3g" client="_2DSo8JfGEeqEjcU498GQ3g" supplier="_YAX9AJfIEeqEjcU498GQ3g" contract="_YAX9AJfIEeqEjcU498GQ3g"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_6hwYUJfGEeqEjcU498GQ3g" name="Conexiones" visibility="private"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_8XXPEJfGEeqEjcU498GQ3g" name="Conexion" visibility="public">
-        <ownedAttribute xmi:id="_LaezgJfIEeqEjcU498GQ3g" name="nombre" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LbHssJfIEeqEjcU498GQ3g" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LbHssZfIEeqEjcU498GQ3g" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_B-fPoJfHEeqEjcU498GQ3g" name="conexiones" memberEnd="_B-oZkJfHEeqEjcU498GQ3g _B_FFgZfHEeqEjcU498GQ3g" navigableOwnedEnd="_B_FFgZfHEeqEjcU498GQ3g">
-        <ownedEnd xmi:id="_B-oZkJfHEeqEjcU498GQ3g" name="manejadorConexioness" type="_2DSo8JfGEeqEjcU498GQ3g" association="_B-fPoJfHEeqEjcU498GQ3g">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B-77kJfHEeqEjcU498GQ3g" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B_FFgJfHEeqEjcU498GQ3g" value="1"/>
-        </ownedEnd>
-        <ownedEnd xmi:id="_B_FFgZfHEeqEjcU498GQ3g" name="conexioness" type="_6hwYUJfGEeqEjcU498GQ3g" aggregation="composite" association="_B-fPoJfHEeqEjcU498GQ3g">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B_FFgpfHEeqEjcU498GQ3g" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B_FFg5fHEeqEjcU498GQ3g" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_tXN0MJfHEeqEjcU498GQ3g" name="conexiones" memberEnd="_tXN0MZfHEeqEjcU498GQ3g _tXN0NJfHEeqEjcU498GQ3g" navigableOwnedEnd="_tXN0NJfHEeqEjcU498GQ3g">
-        <ownedEnd xmi:id="_tXN0MZfHEeqEjcU498GQ3g" name="conexiones" type="_6hwYUJfGEeqEjcU498GQ3g" association="_tXN0MJfHEeqEjcU498GQ3g">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tXN0MpfHEeqEjcU498GQ3g" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tXN0M5fHEeqEjcU498GQ3g" value="1"/>
-        </ownedEnd>
-        <ownedEnd xmi:id="_tXN0NJfHEeqEjcU498GQ3g" name="conexion" type="_8XXPEJfGEeqEjcU498GQ3g" aggregation="composite" association="_tXN0MJfHEeqEjcU498GQ3g">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tXN0NZfHEeqEjcU498GQ3g"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tXN0NpfHEeqEjcU498GQ3g" value="*"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_YAX9AJfIEeqEjcU498GQ3g" name="IEcho" visibility="public">
-        <ownedOperation xmi:id="_bEMTUJfIEeqEjcU498GQ3g" name="agregarConexion"/>
-        <ownedOperation xmi:id="_bL-9YJfIEeqEjcU498GQ3g" name="notificarDesconexiones"/>
-      </packagedElement>
-    </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_pGdmIJfGEeqEjcU498GQ3g" client="_AhK-8INAEeq59Lg8Uv8JMQ" supplier="_Akk9wJfEEeqEjcU498GQ3g"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_27AeoJfHEeqEjcU498GQ3g" name="mancon" memberEnd="_27BFsJfHEeqEjcU498GQ3g _27lGYJfHEeqEjcU498GQ3g" navigableOwnedEnd="_27lGYJfHEeqEjcU498GQ3g">
       <ownedEnd xmi:id="_27BFsJfHEeqEjcU498GQ3g" name="sistema" type="_ky18MJfDEeqEjcU498GQ3g" association="_27AeoJfHEeqEjcU498GQ3g">
@@ -1063,36 +1008,92 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_8ps0EKkQEeqnbbToGLQyNw" client="_VPhaIIM8Eeq59Lg8Uv8JMQ" supplier="_5ywcIKkQEeqnbbToGLQyNw"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_GL_-0KkTEeqnbbToGLQyNw" name="registro_usuarios">
-      <packagedElement xmi:type="uml:Class" xmi:id="_2y_8sJfIEeqEjcU498GQ3g" name="UsuariosRegistrados" visibility="public">
-        <ownedAttribute xmi:id="_JFEQUJhBEeqvQ5DxjN0qQg" name="usuarios" visibility="private" type="_3p1eEJfIEeqEjcU498GQ3g" isUnique="false">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JFE3YJhBEeqvQ5DxjN0qQg"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JFE3YZhBEeqvQ5DxjN0qQg" value="*"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fuqrUKkUEeqnbbToGLQyNw" name="modelo_d">
+      <packagedElement xmi:type="uml:Package" xmi:id="_unL0MKkTEeqnbbToGLQyNw" name="server">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_A453kINCEeq59Lg8Uv8JMQ" name="IServer">
+          <ownedOperation xmi:id="_pPr2wJfKEeqEjcU498GQ3g" name="iniciarSv"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Vj0UsJltEeqSPqDq1oijjA" name="FormateadorListaUsuarios" visibility="public">
+          <ownedOperation xmi:id="_X0KmsJltEeqSPqDq1oijjA" name="escribeListUsuarios" isStatic="true">
+            <ownedParameter xmi:id="_gdHZgJltEeqSPqDq1oijjA" name="usuarios" type="_2y_8sJfIEeqEjcU498GQ3g"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_RMduUJfKEeqEjcU498GQ3g" name="Server" visibility="public">
+          <interfaceRealization xmi:id="_rL32oJfKEeqEjcU498GQ3g" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_A453kINCEeq59Lg8Uv8JMQ" contract="_A453kINCEeq59Lg8Uv8JMQ"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_ky18MJfDEeqEjcU498GQ3g" name="SistemaDirectorio" visibility="public">
+        <ownedAttribute xmi:id="_RtZGkJfJEeqEjcU498GQ3g" name="mancon" visibility="private" type="_2DSo8JfGEeqEjcU498GQ3g">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RtZGkZfJEeqEjcU498GQ3g" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RtZGkpfJEeqEjcU498GQ3g" value="1"/>
         </ownedAttribute>
-        <interfaceRealization xmi:id="_4HUO0JfJEeqEjcU498GQ3g" client="_2y_8sJfIEeqEjcU498GQ3g" supplier="_0dsUEINBEeq59Lg8Uv8JMQ" contract="_0dsUEINBEeq59Lg8Uv8JMQ"/>
+        <ownedAttribute xmi:id="_Zb1Y8JfJEeqEjcU498GQ3g" name="usuarios" visibility="private" type="_2y_8sJfIEeqEjcU498GQ3g">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zb1Y8ZfJEeqEjcU498GQ3g" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Zb1Y8pfJEeqEjcU498GQ3g" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_k4M5IJfKEeqEjcU498GQ3g" name="sv" visibility="private" type="_RMduUJfKEeqEjcU498GQ3g">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k4M5IZfKEeqEjcU498GQ3g" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k4M5IpfKEeqEjcU498GQ3g" value="1"/>
+        </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_0dsUEINBEeq59Lg8Uv8JMQ" name="RegistroUsuarios">
-        <ownedOperation xmi:id="_wRilYJfJEeqEjcU498GQ3g" name="isRegistrado"/>
-        <ownedOperation xmi:id="_zdUk4JfJEeqEjcU498GQ3g" name="registrar"/>
-        <ownedOperation xmi:id="_1DIsIJfJEeqEjcU498GQ3g" name="ponerOffline"/>
-        <ownedOperation xmi:id="_1-hWUJfJEeqEjcU498GQ3g" name="ponerOnline"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_pL18wJfDEeqEjcU498GQ3g" name="Echo">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2DSo8JfGEeqEjcU498GQ3g" name="ManejadorConexiones" visibility="public">
+          <ownedAttribute xmi:id="_CJO_sJfKEeqEjcU498GQ3g" name="conexiones" visibility="private" type="_6hwYUJfGEeqEjcU498GQ3g">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CJO_sZfKEeqEjcU498GQ3g" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CJO_spfKEeqEjcU498GQ3g" value="1"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_oF9EAJfJEeqEjcU498GQ3g" client="_2DSo8JfGEeqEjcU498GQ3g" supplier="_YAX9AJfIEeqEjcU498GQ3g" contract="_YAX9AJfIEeqEjcU498GQ3g"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6hwYUJfGEeqEjcU498GQ3g" name="Conexiones" visibility="private"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8XXPEJfGEeqEjcU498GQ3g" name="Conexion" visibility="public">
+          <ownedAttribute xmi:id="_LaezgJfIEeqEjcU498GQ3g" name="nombre" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LbHssJfIEeqEjcU498GQ3g" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LbHssZfIEeqEjcU498GQ3g" value="1"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_B-fPoJfHEeqEjcU498GQ3g" name="conexiones" memberEnd="_B-oZkJfHEeqEjcU498GQ3g _B_FFgZfHEeqEjcU498GQ3g" navigableOwnedEnd="_B_FFgZfHEeqEjcU498GQ3g">
+          <ownedEnd xmi:id="_B-oZkJfHEeqEjcU498GQ3g" name="manejadorConexioness" type="_2DSo8JfGEeqEjcU498GQ3g" association="_B-fPoJfHEeqEjcU498GQ3g">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B-77kJfHEeqEjcU498GQ3g" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B_FFgJfHEeqEjcU498GQ3g" value="1"/>
+          </ownedEnd>
+          <ownedEnd xmi:id="_B_FFgZfHEeqEjcU498GQ3g" name="conexioness" type="_6hwYUJfGEeqEjcU498GQ3g" aggregation="composite" association="_B-fPoJfHEeqEjcU498GQ3g">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B_FFgpfHEeqEjcU498GQ3g" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B_FFg5fHEeqEjcU498GQ3g" value="1"/>
+          </ownedEnd>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_tXN0MJfHEeqEjcU498GQ3g" name="conexiones" memberEnd="_tXN0MZfHEeqEjcU498GQ3g _tXN0NJfHEeqEjcU498GQ3g" navigableOwnedEnd="_tXN0NJfHEeqEjcU498GQ3g">
+          <ownedEnd xmi:id="_tXN0MZfHEeqEjcU498GQ3g" name="conexiones" type="_6hwYUJfGEeqEjcU498GQ3g" association="_tXN0MJfHEeqEjcU498GQ3g">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tXN0MpfHEeqEjcU498GQ3g" value="1"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tXN0M5fHEeqEjcU498GQ3g" value="1"/>
+          </ownedEnd>
+          <ownedEnd xmi:id="_tXN0NJfHEeqEjcU498GQ3g" name="conexion" type="_8XXPEJfGEeqEjcU498GQ3g" aggregation="composite" association="_tXN0MJfHEeqEjcU498GQ3g">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tXN0NZfHEeqEjcU498GQ3g"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tXN0NpfHEeqEjcU498GQ3g" value="*"/>
+          </ownedEnd>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_YAX9AJfIEeqEjcU498GQ3g" name="IEcho" visibility="public">
+          <ownedOperation xmi:id="_bEMTUJfIEeqEjcU498GQ3g" name="agregarConexion"/>
+          <ownedOperation xmi:id="_bL-9YJfIEeqEjcU498GQ3g" name="notificarDesconexiones"/>
+        </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_3p1eEJfIEeqEjcU498GQ3g" name="Usuarios" visibility="public"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GL_-0KkTEeqnbbToGLQyNw" name="registro_usuarios">
+        <packagedElement xmi:type="uml:Class" xmi:id="_2y_8sJfIEeqEjcU498GQ3g" name="UsuariosRegistrados" visibility="public">
+          <ownedAttribute xmi:id="_JFEQUJhBEeqvQ5DxjN0qQg" name="usuarios" visibility="private" type="_3p1eEJfIEeqEjcU498GQ3g" isUnique="false">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JFE3YJhBEeqvQ5DxjN0qQg"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JFE3YZhBEeqvQ5DxjN0qQg" value="*"/>
+          </ownedAttribute>
+          <interfaceRealization xmi:id="_4HUO0JfJEeqEjcU498GQ3g" client="_2y_8sJfIEeqEjcU498GQ3g" supplier="_0dsUEINBEeq59Lg8Uv8JMQ" contract="_0dsUEINBEeq59Lg8Uv8JMQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_0dsUEINBEeq59Lg8Uv8JMQ" name="RegistroUsuarios">
+          <ownedOperation xmi:id="_wRilYJfJEeqEjcU498GQ3g" name="isRegistrado"/>
+          <ownedOperation xmi:id="_zdUk4JfJEeqEjcU498GQ3g" name="registrar"/>
+          <ownedOperation xmi:id="_1DIsIJfJEeqEjcU498GQ3g" name="ponerOffline"/>
+          <ownedOperation xmi:id="_1-hWUJfJEeqEjcU498GQ3g" name="ponerOnline"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3p1eEJfIEeqEjcU498GQ3g" name="Usuarios" visibility="public"/>
+      </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_unL0MKkTEeqnbbToGLQyNw" name="server">
-      <packagedElement xmi:type="uml:Interface" xmi:id="_A453kINCEeq59Lg8Uv8JMQ" name="IServer">
-        <ownedOperation xmi:id="_pPr2wJfKEeqEjcU498GQ3g" name="iniciarSv"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_Vj0UsJltEeqSPqDq1oijjA" name="FormateadorListaUsuarios" visibility="public">
-        <ownedOperation xmi:id="_X0KmsJltEeqSPqDq1oijjA" name="escribeListUsuarios" isStatic="true">
-          <ownedParameter xmi:id="_gdHZgJltEeqSPqDq1oijjA" name="usuarios" type="_2y_8sJfIEeqEjcU498GQ3g"/>
-        </ownedOperation>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_RMduUJfKEeqEjcU498GQ3g" name="Server" visibility="public">
-        <interfaceRealization xmi:id="_rL32oJfKEeqEjcU498GQ3g" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_A453kINCEeq59Lg8Uv8JMQ" contract="_A453kINCEeq59Lg8Uv8JMQ"/>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_fuqrUKkUEeqnbbToGLQyNw" name="modelo_d"/>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
