@@ -102,6 +102,12 @@
           <interfaceRealization xmi:id="_D31oUKLHEeqdx__CgPt7xQ" client="_paJBgKLGEeqdx__CgPt7xQ" supplier="_490KwKLGEeqdx__CgPt7xQ" contract="_490KwKLGEeqdx__CgPt7xQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Interface" xmi:id="_490KwKLGEeqdx__CgPt7xQ" name="Desencriptacion"/>
+        <packagedElement xmi:type="uml:Component" xmi:id="_sqC5cKkQEeqnbbToGLQyNw" name="Mensaje">
+          <interfaceRealization xmi:id="_7RcnsKkQEeqnbbToGLQyNw" client="_sqC5cKkQEeqnbbToGLQyNw" supplier="_5ywcIKkQEeqnbbToGLQyNw" contract="_5ywcIKkQEeqnbbToGLQyNw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_5ywcIKkQEeqnbbToGLQyNw" name="ArmableDesarmable">
+          <ownedOperation xmi:id="_RNJC8KkREeqnbbToGLQyNw" name="armar"/>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Component" xmi:id="_PbNx0IM_Eeq59Lg8Uv8JMQ" name="VistaYControlador">
         <interfaceRealization xmi:id="_qy2RUIM_Eeq59Lg8Uv8JMQ" client="_PbNx0IM_Eeq59Lg8Uv8JMQ" supplier="_YSzdkIM_Eeq59Lg8Uv8JMQ" contract="_YSzdkIM_Eeq59Lg8Uv8JMQ"/>
@@ -583,7 +589,7 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_g8OIIJhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_0dsUEINBEeq59Lg8Uv8JMQ"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_hw9-0JhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_A453kINCEeq59Lg8Uv8JMQ"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_z2WP0JhAEeqvQ5DxjN0qQg" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_YAX9AJfIEeqEjcU498GQ3g"/>
-    <packagedElement xmi:type="uml:Package" xmi:id="_w4_aIJh9EeqsF5fPE9t1pQ" name="modeloR">
+    <packagedElement xmi:type="uml:Package" xmi:id="_w4_aIJh9EeqsF5fPE9t1pQ" name="modelo_r">
       <packagedElement xmi:type="uml:Package" xmi:id="_CJscEJexEeqEjcU498GQ3g" name="mensaje">
         <packagedElement xmi:type="uml:Class" xmi:id="_EEwakJexEeqEjcU498GQ3g" name="Mensaje" visibility="public">
           <ownedAttribute xmi:id="_I2jxEJh_EeqsF5fPE9t1pQ" name="asunto" visibility="private">
@@ -600,6 +606,7 @@
           <ownedAttribute xmi:id="_oXweAJkvEeqcZud-QIlLnw" name="receptor" visibility="private" type="_0JtWUJe0EeqEjcU498GQ3g"/>
           <interfaceRealization xmi:id="_RXctwJezEeqEjcU498GQ3g" client="_EEwakJexEeqEjcU498GQ3g" supplier="_9oeBsJeyEeqEjcU498GQ3g" contract="_9oeBsJeyEeqEjcU498GQ3g"/>
           <interfaceRealization xmi:id="_WZSkAJiEEeqsF5fPE9t1pQ" client="_EEwakJexEeqEjcU498GQ3g"/>
+          <interfaceRealization xmi:id="_TkyPwKkREeqnbbToGLQyNw" client="_EEwakJexEeqEjcU498GQ3g" supplier="_5ywcIKkQEeqnbbToGLQyNw" contract="_5ywcIKkQEeqnbbToGLQyNw"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_Fs-VkJexEeqEjcU498GQ3g" name="MensajeSimple" visibility="public">
           <generalization xmi:id="_1elxYJkvEeqcZud-QIlLnw" general="_EEwakJexEeqEjcU498GQ3g"/>
@@ -659,6 +666,7 @@
         <interfaceRealization xmi:id="_8-I0gJkhEeqcZud-QIlLnw" client="_7Yba8JkhEeqcZud-QIlLnw" supplier="_HLE9EIM-Eeq59Lg8Uv8JMQ" contract="_HLE9EIM-Eeq59Lg8Uv8JMQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Ob_LcJkiEeqcZud-QIlLnw" name="SistemaReceptor" visibility="public">
+        <generalization xmi:id="_UZOr0KkOEeqnbbToGLQyNw" general="_GGn38KkFEeqnbbToGLQyNw"/>
         <ownedAttribute xmi:id="_czBicJkiEeqcZud-QIlLnw" name="internetManager" visibility="private" type="_7Yba8JkhEeqcZud-QIlLnw">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_czBicZkiEeqcZud-QIlLnw" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_czCJgJkiEeqcZud-QIlLnw" value="1"/>
@@ -693,9 +701,7 @@
       <packagedElement xmi:type="uml:Usage" xmi:id="_4n0fEJkiEeqcZud-QIlLnw" client="_Ob_LcJkiEeqcZud-QIlLnw" supplier="_2sw7EIM-Eeq59Lg8Uv8JMQ"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_H99ioJkjEeqcZud-QIlLnw" client="_Ob_LcJkiEeqcZud-QIlLnw" supplier="_YSzdkIM_Eeq59Lg8Uv8JMQ"/>
       <packagedElement xmi:type="uml:Usage" xmi:id="_aQQToJk2EeqcZud-QIlLnw" client="_Ob_LcJkiEeqcZud-QIlLnw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_AxxOcJkzEeqcZud-QIlLnw" name="ControladorR" visibility="public">
-      <ownedAttribute xmi:id="_DGGBgJkzEeqcZud-QIlLnw" name="sistema" visibility="private" type="_Ob_LcJkiEeqcZud-QIlLnw"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_UYY28KkREeqnbbToGLQyNw" client="_Ob_LcJkiEeqcZud-QIlLnw" supplier="_5ywcIKkQEeqnbbToGLQyNw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_MGQacJkzEeqcZud-QIlLnw" client="_AxxOcJkzEeqcZud-QIlLnw" supplier="_Zdpu0JkyEeqcZud-QIlLnw"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_pCgHUJkzEeqcZud-QIlLnw" name="controladorsToSistemaReceptors" memberEnd="_pCgHUZkzEeqcZud-QIlLnw _pCgHVJkzEeqcZud-QIlLnw" navigableOwnedEnd="_pCgHVJkzEeqcZud-QIlLnw">
@@ -1076,6 +1082,12 @@
         </ownedAttribute>
       </packagedElement>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_dnoVEKkOEeqnbbToGLQyNw" name="controladores_r">
+      <packagedElement xmi:type="uml:Class" xmi:id="_AxxOcJkzEeqcZud-QIlLnw" name="ControladorR" visibility="public">
+        <ownedAttribute xmi:id="_DGGBgJkzEeqcZud-QIlLnw" name="sistema" visibility="private" type="_Ob_LcJkiEeqcZud-QIlLnw"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_8ps0EKkQEeqnbbToGLQyNw" client="_VPhaIIM8Eeq59Lg8Uv8JMQ" supplier="_5ywcIKkQEeqnbbToGLQyNw"/>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
