@@ -391,6 +391,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tnTqMZe9EeqEjcU498GQ3g" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tnTqMpe9EeqEjcU498GQ3g" value="1"/>
         </ownedAttribute>
+        <interfaceRealization xmi:id="_JyG3wKjwEeqE_q9VBUcngQ" client="_0JtWUJe0EeqEjcU498GQ3g" supplier="_9oeBsJeyEeqEjcU498GQ3g" contract="_9oeBsJeyEeqEjcU498GQ3g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_9oeBsJeyEeqEjcU498GQ3g" name="ArmableDesarmable" visibility="public">
         <ownedOperation xmi:id="_T6Sd8JezEeqEjcU498GQ3g" name="desarmar"/>
