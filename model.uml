@@ -645,7 +645,9 @@
             </ownedParameter>
           </ownedOperation>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_rHImEKndEeqb1du1z2QzeQ" name="DesencriptacionCesarStrategy" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rHImEKndEeqb1du1z2QzeQ" name="DesencriptacionCesarStrategy" visibility="public">
+          <interfaceRealization xmi:id="_PP2EMKnfEeqb1du1z2QzeQ" client="_rHImEKndEeqb1du1z2QzeQ" supplier="_490KwKLGEeqdx__CgPt7xQ" contract="_490KwKLGEeqdx__CgPt7xQ"/>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Usage" xmi:id="_MGQacJkzEeqcZud-QIlLnw" client="_AxxOcJkzEeqcZud-QIlLnw" supplier="_Zdpu0JkyEeqcZud-QIlLnw"/>
