@@ -11249,22 +11249,6 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ua6mgKkREeqnbbToGLQyNw" id="(0.6534090909090909,1.0)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ua6mgakREeqnbbToGLQyNw" id="(0.582089552238806,0.0)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_PIxoeKneEeqb1du1z2QzeQ" type="4001" element="_PGGHzKneEeqb1du1z2QzeQ" source="_syFFGKndEeqb1du1z2QzeQ" target="_fNuIOKndEeqb1du1z2QzeQ">
-          <children xmi:type="notation:Node" xmi:id="_PIxofKneEeqb1du1z2QzeQ" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIxofaneEeqb1du1z2QzeQ" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_PIxofqneEeqb1du1z2QzeQ" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIxof6neEeqb1du1z2QzeQ" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_PIxogKneEeqb1du1z2QzeQ" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PIxoganeEeqb1du1z2QzeQ" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_PIxoeaneEeqb1du1z2QzeQ"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_PIxoeqneEeqb1du1z2QzeQ" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PIxoe6neEeqb1du1z2QzeQ" points="[0, 0, 54, 0]$[-54, 0, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PIxogqneEeqb1du1z2QzeQ" id="(0.0,0.6438356164383562)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PIxog6neEeqb1du1z2QzeQ" id="(1.0,0.631578947368421)"/>
-        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_xT50gJh9EeqsF5fPE9t1pQ" name="modelo_r" tooltipText="NewModel::modelo_r" width="12" height="10">
@@ -11569,7 +11553,7 @@
           <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Package']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_Package']"/>
-        <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_egq00KndEeqb1du1z2QzeQ" name="IDesencriptacionStrategy" tooltipText="NewModel::modelo_r::desencriptacion::IDesencriptacionStrategy" incomingEdges="_PGGHzKneEeqb1du1z2QzeQ" width="12" height="10">
+        <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_egq00KndEeqb1du1z2QzeQ" name="IDesencriptacionStrategy" tooltipText="NewModel::modelo_r::desencriptacion::IDesencriptacionStrategy" width="12" height="10">
           <target xmi:type="uml:Interface" href="model.uml#_490KwKLGEeqdx__CgPt7xQ"/>
           <semanticElements xmi:type="uml:Interface" href="model.uml#_490KwKLGEeqdx__CgPt7xQ"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -11590,7 +11574,7 @@
             <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@containerMappings[name='CD_ReusedMappingForFeatures']/@subNodeMappings[name='CD_Operation']"/>
           </ownedElements>
         </ownedDiagramElements>
-        <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_sw4yIKndEeqb1du1z2QzeQ" name="DesencriptacionCesarStrategy" tooltipText="NewModel::modelo_r::desencriptacion::DesencriptacionCesarStrategy" outgoingEdges="_PGGHzKneEeqb1du1z2QzeQ" width="12" height="10">
+        <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_sw4yIKndEeqb1du1z2QzeQ" name="DesencriptacionCesarStrategy" tooltipText="NewModel::modelo_r::desencriptacion::DesencriptacionCesarStrategy" width="12" height="10">
           <target xmi:type="uml:Class" href="model.uml#_rHImEKndEeqb1du1z2QzeQ"/>
           <semanticElements xmi:type="uml:Class" href="model.uml#_rHImEKndEeqb1du1z2QzeQ"/>
           <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -11869,15 +11853,6 @@
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_UYY2_6kREeqnbbToGLQyNw" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_Dependency']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_PGGHzKneEeqb1du1z2QzeQ" sourceNode="_sw4yIKndEeqb1du1z2QzeQ" targetNode="_egq00KndEeqb1du1z2QzeQ">
-      <target xmi:type="uml:InterfaceRealization" href="model.uml#_PGABIKneEeqb1du1z2QzeQ"/>
-      <semanticElements xmi:type="uml:InterfaceRealization" href="model.uml#_PGABIKneEeqb1du1z2QzeQ"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_PGGHzaneEeqb1du1z2QzeQ" lineStyle="dash" targetArrow="InputClosedArrow">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_InterfaceRealization']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_PGGHzqneEeqb1du1z2QzeQ" showIcon="false"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']/@defaultLayer/@edgeMappings[name='CD_InterfaceRealization']"/>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.obeonetwork.dsl.uml2.design/description/uml2.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Class%20Diagram']"/>
     <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_hyeG8Jh9EeqsF5fPE9t1pQ"/>
