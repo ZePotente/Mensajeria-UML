@@ -141,6 +141,12 @@
         <ownedOperation xmi:id="_yxgZ4JlMEeqXhKxNYCSgfw" name="Operation_2"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_Akk9wJfEEeqEjcU498GQ3g" name="IEcho"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_EI3TQKngEeqb1du1z2QzeQ" name="Sincronizacion">
+        <interfaceRealization xmi:id="_UqTFQKngEeqb1du1z2QzeQ" client="_EI3TQKngEeqb1du1z2QzeQ" supplier="_RYAOEKngEeqb1du1z2QzeQ" contract="_RYAOEKngEeqb1du1z2QzeQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_RYAOEKngEeqb1du1z2QzeQ" name="ISincronizacion">
+        <ownedOperation xmi:id="_7CAVEKniEeqb1du1z2QzeQ" name="envioSincronizacion"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RobjkH6aEeqtnPi8B86etA" name="DDespliegue">
       <packagedElement xmi:type="uml:Package" xmi:id="_yFWEMH6BEeqtnPi8B86etA" name="Conexiones">
@@ -851,7 +857,6 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_Svyv4JlXEeq2m6bS8OZ7Ow" client="_A-BRMH6ZEeqtnPi8B86etA" supplier="_G7_KoJlXEeq2m6bS8OZ7Ow"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_urhlgJlYEeq2m6bS8OZ7Ow" name="IRecepcion"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_40qYsJlYEeq2m6bS8OZ7Ow" client="_GAhWAJlZEeq2m6bS8OZ7Ow" supplier="_urhlgJlYEeq2m6bS8OZ7Ow"/>
-    <packagedElement xmi:type="uml:Usage" xmi:id="_mC1E0JltEeqSPqDq1oijjA" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_Vj0UsJltEeqSPqDq1oijjA"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_EZ_TIKLHEeqdx__CgPt7xQ" client="_WhOvcH6jEeqtnPi8B86etA" supplier="_490KwKLGEeqdx__CgPt7xQ"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_x-nnMKLKEeqdx__CgPt7xQ" client="_A-BRMH6ZEeqtnPi8B86etA"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_0qYg0KjTEeqE_q9VBUcngQ" name="modelo_m">
@@ -1043,6 +1048,7 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_RMduUJfKEeqEjcU498GQ3g" name="Server" visibility="public">
           <interfaceRealization xmi:id="_rL32oJfKEeqEjcU498GQ3g" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_A453kINCEeq59Lg8Uv8JMQ" contract="_A453kINCEeq59Lg8Uv8JMQ"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_2Jf1YKnfEeqb1du1z2QzeQ" client="_RMduUJfKEeqEjcU498GQ3g" supplier="_Vj0UsJltEeqSPqDq1oijjA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_ky18MJfDEeqEjcU498GQ3g" name="SistemaDirectorio" visibility="public">
         <ownedAttribute xmi:id="_RtZGkJfJEeqEjcU498GQ3g" name="mancon" visibility="private" type="_2DSo8JfGEeqEjcU498GQ3g">
@@ -1066,7 +1072,7 @@
           </ownedAttribute>
           <interfaceRealization xmi:id="_oF9EAJfJEeqEjcU498GQ3g" client="_2DSo8JfGEeqEjcU498GQ3g" supplier="_YAX9AJfIEeqEjcU498GQ3g" contract="_YAX9AJfIEeqEjcU498GQ3g"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_6hwYUJfGEeqEjcU498GQ3g" name="Conexiones" visibility="private"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6hwYUJfGEeqEjcU498GQ3g" name="Conexiones" visibility="public"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_8XXPEJfGEeqEjcU498GQ3g" name="Conexion" visibility="public">
           <ownedAttribute xmi:id="_LaezgJfIEeqEjcU498GQ3g" name="nombre" visibility="private">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -1115,6 +1121,9 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_3p1eEJfIEeqEjcU498GQ3g" name="Usuarios" visibility="public"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ZVrPQKngEeqb1du1z2QzeQ" name="sincronizacion">
+        <packagedElement xmi:type="uml:Class" xmi:id="_3Y584KnhEeqb1du1z2QzeQ" name="RecepcionSinc" visibility="public"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_Y7wcgJlPEeq2m6bS8OZ7Ow" name="configuracion IP Directorio.txt"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_kxqpIKkqEeqjrN7eaoDWuw" name="configuracion">
@@ -1144,6 +1153,7 @@
     <packagedElement xmi:type="uml:Usage" xmi:id="_dEiAQKnYEeqb1du1z2QzeQ" client="_qN0mwINBEeq59Lg8Uv8JMQ"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_uxqJUKnYEeqb1du1z2QzeQ" name="ISesion"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_0FZT0KnYEeqb1du1z2QzeQ" client="_qN0mwINBEeq59Lg8Uv8JMQ" supplier="_uxqJUKnYEeqb1du1z2QzeQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_VCvacKngEeqb1du1z2QzeQ" client="_AhK-8INAEeq59Lg8Uv8JMQ" supplier="_RYAOEKngEeqb1du1z2QzeQ"/>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
