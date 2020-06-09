@@ -145,7 +145,9 @@
         <interfaceRealization xmi:id="_UqTFQKngEeqb1du1z2QzeQ" client="_EI3TQKngEeqb1du1z2QzeQ" supplier="_RYAOEKngEeqb1du1z2QzeQ" contract="_RYAOEKngEeqb1du1z2QzeQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_RYAOEKngEeqb1du1z2QzeQ" name="ISincronizacion">
-        <ownedOperation xmi:id="_7CAVEKniEeqb1du1z2QzeQ" name="envioSincronizacion"/>
+        <ownedOperation xmi:id="_7CAVEKniEeqb1du1z2QzeQ" name="notificarConexion"/>
+        <ownedOperation xmi:id="_nKUY4KqmEeqb1du1z2QzeQ" name="notificarDesconexiones"/>
+        <ownedOperation xmi:id="_qocM8KqjEeqb1du1z2QzeQ" name="pedirUsuarios"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_RobjkH6aEeqtnPi8B86etA" name="DDespliegue">
@@ -1123,7 +1125,21 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_ZVrPQKngEeqb1du1z2QzeQ" name="sincronizacion">
         <packagedElement xmi:type="uml:Class" xmi:id="_3Y584KnhEeqb1du1z2QzeQ" name="RecepcionSinc" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xh0xgKqhEeqb1du1z2QzeQ" name="Sincronizador" visibility="public">
+          <interfaceRealization xmi:id="_BCTK4KqkEeqb1du1z2QzeQ" client="_xh0xgKqhEeqb1du1z2QzeQ" supplier="_RYAOEKngEeqb1du1z2QzeQ" contract="_RYAOEKngEeqb1du1z2QzeQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_9lTKcKqhEeqb1du1z2QzeQ" memberEnd="_9lv2YKqhEeqb1du1z2QzeQ _9olH8aqhEeqb1du1z2QzeQ" navigableOwnedEnd="_9olH8aqhEeqb1du1z2QzeQ">
+          <ownedEnd xmi:id="_9lv2YKqhEeqb1du1z2QzeQ" name="sincronizadors" type="_xh0xgKqhEeqb1du1z2QzeQ" association="_9lTKcKqhEeqb1du1z2QzeQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9n_SEKqhEeqb1du1z2QzeQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9olH8KqhEeqb1du1z2QzeQ" value="1"/>
+          </ownedEnd>
+          <ownedEnd xmi:id="_9olH8aqhEeqb1du1z2QzeQ" name="recepcionSincs" type="_3Y584KnhEeqb1du1z2QzeQ" aggregation="composite" association="_9lTKcKqhEeqb1du1z2QzeQ">
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9o4p8KqhEeqb1du1z2QzeQ"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9o4p8aqhEeqb1du1z2QzeQ" value="*"/>
+          </ownedEnd>
+        </packagedElement>
       </packagedElement>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_-kC_wKqjEeqb1du1z2QzeQ" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_RYAOEKngEeqb1du1z2QzeQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_Y7wcgJlPEeq2m6bS8OZ7Ow" name="configuracion IP Directorio.txt"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_kxqpIKkqEeqjrN7eaoDWuw" name="configuracion">
