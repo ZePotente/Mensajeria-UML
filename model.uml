@@ -157,7 +157,7 @@
           </ownedEnd>
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_Wc00YIM0Eeq59Lg8Uv8JMQ" client="_PM9-0H57EeqtnPi8B86etA" supplier="_VV9S8IM0Eeq59Lg8Uv8JMQ"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_XJefAIM0Eeq59Lg8Uv8JMQ" client="_PEBzUH59EeqtnPi8B86etA" supplier="_Y7wcgJlPEeq2m6bS8OZ7Ow"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_XJefAIM0Eeq59Lg8Uv8JMQ" client="_PEBzUH59EeqtnPi8B86etA" supplier="_tvKY8K2mEeqBk-ynk_Da_g"/>
         <packagedElement xmi:type="uml:Association" xmi:id="_3uS8oJlPEeq2m6bS8OZ7Ow" name="TCP/IP" memberEnd="_3uS8oZlPEeq2m6bS8OZ7Ow _3uS8pJlPEeq2m6bS8OZ7Ow" navigableOwnedEnd="_3uS8oZlPEeq2m6bS8OZ7Ow _3uS8pJlPEeq2m6bS8OZ7Ow">
           <ownedEnd xmi:id="_3uS8oZlPEeq2m6bS8OZ7Ow" name="emisor.jars" type="_PM9-0H57EeqtnPi8B86etA" association="_3uS8oJlPEeq2m6bS8OZ7Ow">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3uS8oplPEeq2m6bS8OZ7Ow"/>
@@ -224,12 +224,11 @@
               <manifestation xmi:id="_PRdnUKRZEeqhQfuSLr0EHQ" client="_PM9-0H57EeqtnPi8B86etA" supplier="_qdjdUH6KEeqtnPi8B86etA" utilizedElement="_qdjdUH6KEeqtnPi8B86etA"/>
             </nestedClassifier>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VV9S8IM0Eeq59Lg8Uv8JMQ" name="configuracion IP ServerMensajes.txt"/>
-          <deployment xmi:id="_AYQugKknEeqjrN7eaoDWuw" client="_iSD10H56EeqtnPi8B86etA" supplier="_Y7wcgJlPEeq2m6bS8OZ7Ow" deployedArtifact="_Y7wcgJlPEeq2m6bS8OZ7Ow"/>
+          <nestedClassifier xmi:type="uml:Artifact" xmi:id="_VV9S8IM0Eeq59Lg8Uv8JMQ" name="ConfiguracionE.txt"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Device" xmi:id="_x3H0QH58EeqtnPi8B86etA" name="Computadora Receptora">
           <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Tj4p0H59EeqtnPi8B86etA" name="SonidoAlarma.wav"/>
-          <deployment xmi:id="__CNhkKkmEeqjrN7eaoDWuw" client="_x3H0QH58EeqtnPi8B86etA" supplier="_Y7wcgJlPEeq2m6bS8OZ7Ow" deployedArtifact="_Y7wcgJlPEeq2m6bS8OZ7Ow"/>
+          <nestedClassifier xmi:type="uml:Artifact" xmi:id="_tvKY8K2mEeqBk-ynk_Da_g" name="Configuracion.txt"/>
           <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_MtVowH59EeqtnPi8B86etA" name="J.R.E. 1.8">
             <nestedClassifier xmi:type="uml:Artifact" xmi:id="_PEBzUH59EeqtnPi8B86etA" name="Receptor.jar">
               <manifestation xmi:id="_Q08zUKRZEeqhQfuSLr0EHQ" client="_PEBzUH59EeqtnPi8B86etA" supplier="_rxslwH6KEeqtnPi8B86etA" utilizedElement="_rxslwH6KEeqtnPi8B86etA"/>
@@ -239,7 +238,7 @@
         <packagedElement xmi:type="uml:Dependency" xmi:id="_yFB38H59EeqtnPi8B86etA" client="_PEBzUH59EeqtnPi8B86etA" supplier="_Tj4p0H59EeqtnPi8B86etA"/>
         <packagedElement xmi:type="uml:Device" xmi:id="_E0404JlPEeq2m6bS8OZ7Ow" name="Computadora Mensajes">
           <nestedClassifier xmi:type="uml:Artifact" xmi:id="_dN2j0JlPEeq2m6bS8OZ7Ow" name="usuariosDatabase.txt"/>
-          <deployment xmi:id="_919J0KkmEeqjrN7eaoDWuw" client="_E0404JlPEeq2m6bS8OZ7Ow" supplier="_Y7wcgJlPEeq2m6bS8OZ7Ow" deployedArtifact="_Y7wcgJlPEeq2m6bS8OZ7Ow"/>
+          <nestedClassifier xmi:type="uml:Artifact" xmi:id="_Y7wcgJlPEeq2m6bS8OZ7Ow" name="ConfiguracionM.txt"/>
           <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_P_6i4JlPEeq2m6bS8OZ7Ow" name="J.R.E. 1.8">
             <nestedClassifier xmi:type="uml:Artifact" xmi:id="_JzgrAJlPEeq2m6bS8OZ7Ow" name="ServerMensajes.jar">
               <manifestation xmi:id="_QVugsKRZEeqhQfuSLr0EHQ" client="_JzgrAJlPEeq2m6bS8OZ7Ow" supplier="_ztK0EJlQEeq2m6bS8OZ7Ow" utilizedElement="_ztK0EJlQEeq2m6bS8OZ7Ow"/>
@@ -257,7 +256,6 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_yD5PAKRaEeqhQfuSLr0EHQ" client="_nQJ4wH6AEeqtnPi8B86etA" supplier="_qPjI8KRaEeqhQfuSLr0EHQ"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_yrfagKRaEeqhQfuSLr0EHQ" client="_wA33YKB1EeqkuK8WdTiwhg" supplier="_G32mIKRbEeqhQfuSLr0EHQ"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_T2e3MKkmEeqjrN7eaoDWuw" client="_PM9-0H57EeqtnPi8B86etA" supplier="_Y7wcgJlPEeq2m6bS8OZ7Ow"/>
         <profileApplication xmi:id="_psnmAJesEeqEjcU498GQ3g">
           <eAnnotations xmi:id="_psnmAZesEeqEjcU498GQ3g" source="http://www.eclipse.org/uml2/2.0.0/UML">
             <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
@@ -1146,7 +1144,6 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_-kC_wKqjEeqb1du1z2QzeQ" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_RYAOEKngEeqb1du1z2QzeQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Artifact" xmi:id="_Y7wcgJlPEeq2m6bS8OZ7Ow" name="configuracion IP Directorio.txt"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_kxqpIKkqEeqjrN7eaoDWuw" name="configuracion">
       <packagedElement xmi:type="uml:Class" xmi:id="_ssB3oKkqEeqjrN7eaoDWuw" name="Configuracion" visibility="public">
         <ownedAttribute xmi:id="_3g2sIKkqEeqjrN7eaoDWuw" name="nrosIP" visibility="private" isUnique="false">
