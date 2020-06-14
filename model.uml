@@ -137,10 +137,12 @@
       <packagedElement xmi:type="uml:Interface" xmi:id="_Akk9wJfEEeqEjcU498GQ3g" name="IEcho"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_EI3TQKngEeqb1du1z2QzeQ" name="Sincronizacion">
         <interfaceRealization xmi:id="_UqTFQKngEeqb1du1z2QzeQ" client="_EI3TQKngEeqb1du1z2QzeQ" supplier="_RYAOEKngEeqb1du1z2QzeQ" contract="_RYAOEKngEeqb1du1z2QzeQ"/>
+        <interfaceRealization xmi:id="_CohB4K2xEeqBk-ynk_Da_g" client="_EI3TQKngEeqb1du1z2QzeQ" supplier="_6rcdoK2wEeqBk-ynk_Da_g" contract="_6rcdoK2wEeqBk-ynk_Da_g"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_RYAOEKngEeqb1du1z2QzeQ" name="ISincronizacion">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_RYAOEKngEeqb1du1z2QzeQ" name="Sincronizable">
         <ownedOperation xmi:id="_7CAVEKniEeqb1du1z2QzeQ" name="notificarConexion"/>
         <ownedOperation xmi:id="_nKUY4KqmEeqb1du1z2QzeQ" name="notificarDesconexiones"/>
+        <ownedOperation xmi:id="_bZQtwK2oEeqBk-ynk_Da_g" name="notificarRegistro"/>
         <ownedOperation xmi:id="_qocM8KqjEeqb1du1z2QzeQ" name="pedirUsuarios"/>
       </packagedElement>
     </packagedElement>
@@ -672,12 +674,6 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_uhibgJk2EeqcZud-QIlLnw" name="java.util">
-      <packagedElement xmi:type="uml:Interface" xmi:id="_Zdpu0JkyEeqcZud-QIlLnw" name="Observer" visibility="public">
-        <ownedOperation xmi:id="_bKgSMJkyEeqcZud-QIlLnw" name="update">
-          <ownedParameter xmi:id="_cwsz8JkyEeqcZud-QIlLnw" name="obs" type="_Zdpu0JkyEeqcZud-QIlLnw"/>
-          <ownedParameter xmi:id="_gPUP4JkyEeqcZud-QIlLnw" name="object"/>
-        </ownedOperation>
-      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_GGn38KkFEeqnbbToGLQyNw" name="Observable" visibility="public">
         <ownedOperation xmi:id="_VLKCEpk2EeqcZud-QIlLnw" name="notifyObservers"/>
         <ownedOperation xmi:id="_VLKCE5k2EeqcZud-QIlLnw" name="addObserver"/>
@@ -1068,6 +1064,7 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k4M5IZfKEeqEjcU498GQ3g" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k4M5IpfKEeqEjcU498GQ3g" value="1"/>
         </ownedAttribute>
+        <interfaceRealization xmi:id="_5fGe8K2zEeqBk-ynk_Da_g" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_Zdpu0JkyEeqcZud-QIlLnw" contract="_Zdpu0JkyEeqcZud-QIlLnw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_pL18wJfDEeqEjcU498GQ3g" name="Echo">
         <packagedElement xmi:type="uml:Class" xmi:id="_2DSo8JfGEeqEjcU498GQ3g" name="ManejadorConexiones" visibility="public">
@@ -1127,7 +1124,11 @@
         <packagedElement xmi:type="uml:Class" xmi:id="_3p1eEJfIEeqEjcU498GQ3g" name="Usuarios" visibility="public"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_ZVrPQKngEeqb1du1z2QzeQ" name="sincronizacion">
-        <packagedElement xmi:type="uml:Class" xmi:id="_3Y584KnhEeqb1du1z2QzeQ" name="RecepcionSinc" visibility="public"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_3Y584KnhEeqb1du1z2QzeQ" name="ServerSync" visibility="public">
+          <generalization xmi:id="_6rcdoa2wEeqBk-ynk_Da_g" general="_GGn38KkFEeqnbbToGLQyNw"/>
+          <interfaceRealization xmi:id="_uMyaAK2vEeqBk-ynk_Da_g" client="_3Y584KnhEeqb1du1z2QzeQ"/>
+          <interfaceRealization xmi:id="_UxoG4K2yEeqBk-ynk_Da_g" client="_3Y584KnhEeqb1du1z2QzeQ" supplier="_6rcdoK2wEeqBk-ynk_Da_g" contract="_6rcdoK2wEeqBk-ynk_Da_g"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_xh0xgKqhEeqb1du1z2QzeQ" name="Sincronizador" visibility="public">
           <interfaceRealization xmi:id="_BCTK4KqkEeqb1du1z2QzeQ" client="_xh0xgKqhEeqb1du1z2QzeQ" supplier="_RYAOEKngEeqb1du1z2QzeQ" contract="_RYAOEKngEeqb1du1z2QzeQ"/>
         </packagedElement>
@@ -1141,8 +1142,23 @@
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9o4p8aqhEeqb1du1z2QzeQ" value="*"/>
           </ownedEnd>
         </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_6rcdoK2wEeqBk-ynk_Da_g" name="IServerSync" visibility="public">
+          <ownedAttribute xmi:id="_6rcdo62wEeqBk-ynk_Da_g" name="NOTIF_CONEXION">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_6rcdpK2wEeqBk-ynk_Da_g" name="NOTIF_DESCONEXIONES">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_6rcdpa2wEeqBk-ynk_Da_g" name="NOTIF_REGISTRO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_6rcdpq2wEeqBk-ynk_Da_g" name="PETICION_USUARIOS">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Usage" xmi:id="_-kC_wKqjEeqb1du1z2QzeQ" client="_ky18MJfDEeqEjcU498GQ3g" supplier="_RYAOEKngEeqb1du1z2QzeQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_v_2TEK2vEeqBk-ynk_Da_g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_kxqpIKkqEeqjrN7eaoDWuw" name="configuracion">
       <packagedElement xmi:type="uml:Class" xmi:id="_ssB3oKkqEeqjrN7eaoDWuw" name="Configuracion" visibility="public">
@@ -1172,6 +1188,13 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_uxqJUKnYEeqb1du1z2QzeQ" name="ISesion"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_0FZT0KnYEeqb1du1z2QzeQ" client="_qN0mwINBEeq59Lg8Uv8JMQ" supplier="_uxqJUKnYEeqb1du1z2QzeQ"/>
     <packagedElement xmi:type="uml:Usage" xmi:id="_VCvacKngEeqb1du1z2QzeQ" client="_AhK-8INAEeq59Lg8Uv8JMQ" supplier="_RYAOEKngEeqb1du1z2QzeQ"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_EsXwAK2xEeqBk-ynk_Da_g" client="_AhK-8INAEeq59Lg8Uv8JMQ" supplier="_6rcdoK2wEeqBk-ynk_Da_g"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Zdpu0JkyEeqcZud-QIlLnw" name="Observer" visibility="public">
+      <ownedOperation xmi:id="_bKgSMJkyEeqcZud-QIlLnw" name="update">
+        <ownedParameter xmi:id="_cwsz8JkyEeqcZud-QIlLnw" name="obs" type="_Zdpu0JkyEeqcZud-QIlLnw"/>
+        <ownedParameter xmi:id="_gPUP4JkyEeqcZud-QIlLnw" name="object"/>
+      </ownedOperation>
+    </packagedElement>
     <profileApplication xmi:id="_DzqHwH58EeqtnPi8B86etA">
       <eAnnotations xmi:id="_DzqHwX58EeqtnPi8B86etA" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
